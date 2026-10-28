@@ -25,12 +25,30 @@ To compare specific voices, add them to your account from the ElevenLabs Voice L
 py voice_test.py --voices "Voice One" "Voice Two" "Voice Three"
 ```
 
-Files already generated are reused, so re-running is free.
+Files already generated are reused, so re-running costs little or nothing.
 
-## Coming next
+## Step 2: audio bank
+
+`data/word_list.tsv` holds about 3,000 of the most common German words, ranked by frequency. Each noun has its article, and the top ~1,500 words have a short example sentence. Sarah says each word, and both Sarah and Lennard say each sentence.
+
+Spot check first (about 1,500 credits):
+
+```
+py audio_bank.py --sample 50
+```
+
+Open `output\audio_bank\index.html` and listen. If everything sounds right, run the full bank (about 96,000 credits in total; it asks before spending):
+
+```
+py audio_bank.py
+```
+
+Already generated files are skipped, so you can stop it (Ctrl+C) and run it again later. It stops if the run would cost more than `--budget` (default 125,000). `output\audio_bank\manifest.json` maps each word to its audio files for the app.
+
+## Scripts
 
 | Script | Step | What it does |
 | --- | --- | --- |
-| `voice_test.py` | 1 | Pick a voice |
-| `audio_bank.py` | 2 | 3,000 frequent words + 1,500 sentences in the chosen voice |
-| `process_media.py` | 3 | Download, transcribe, label speakers, tag by course lesson, cut clips |
+| `voice_test.py` | 1 | Compare voices |
+| `audio_bank.py` | 2 | Words in Sarah, sentences in Sarah and Lennard |
+| `process_media.py` | 3 | Download, transcribe, label speakers, tag by course lesson, cut clips (coming next) |

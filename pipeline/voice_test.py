@@ -11,16 +11,10 @@ Cost: about 250 characters per voice, so under 1,000 credits for 3 voices.
 import argparse
 import html
 import json
-import os
-import re
 import sys
-import urllib.error
-import urllib.request
-from pathlib import Path
 
-API = "https://api.elevenlabs.io/v1"
-MODEL = "eleven_multilingual_v2"
-HERE = Path(__file__).resolve().parent
+from elevenlabs import HERE, load_key, request, slug, speak
+
 OUT = HERE / "voice_test_output"
 
 # Common words plus tricky German sounds (ü, ö, ch, ß, -chen), and two short sentences.
@@ -48,34 +42,6 @@ SAMPLES = [
 ]
 
 
-def load_key() -> str:
-    key = os.environ.get("ELEVENLABS_API_KEY")
-    env_file = HERE / ".env"
-    if not key and env_file.exists():
-        for line in env_file.read_text(encoding="utf-8").splitlines():
-            if line.strip().startswith("ELEVENLABS_API_KEY="):
-                key = line.split("=", 1)[1].strip().strip('"')
-    if not key:
-        sys.exit("Missing ELEVENLABS_API_KEY. Put it in pipeline/.env (see .env.example).")
-    return key
-
-
-def request(key: str, path: str, body: dict | None = None) -> bytes:
-    req = urllib.request.Request(
-        f"{API}{path}",
-        data=json.dumps(body).encode() if body else None,
-        headers={"xi-api-key": key, "Content-Type": "application/json"},
-        method="POST" if body else "GET",
-    )
-    try:
-        with urllib.request.urlopen(req, timeout=60) as resp:
-            return resp.read()
-    except urllib.error.HTTPError as e:
-        sys.exit(f"ElevenLabs error {e.code} on {path}: {e.read().decode(errors='replace')}")
-    except urllib.error.URLError as e:
-        sys.exit(f"Could not reach ElevenLabs ({e.reason}). Check your internet connection.")
-
-
 def pick_voices(key: str, wanted: list[str]) -> list[dict]:
     voices = json.loads(request(key, "/voices"))["voices"]
     if wanted:
@@ -92,10 +58,6 @@ def pick_voices(key: str, wanted: list[str]) -> list[dict]:
         return "german" in labels or "deutsch" in labels or "german" in v["name"].lower()
 
     return sorted(voices, key=lambda v: not is_german(v))[:3]
-
-
-def slug(text: str) -> str:
-    return re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")[:40]
 
 
 def main() -> None:
@@ -115,11 +77,7 @@ def main() -> None:
             folder.mkdir(parents=True, exist_ok=True)
             mp3 = folder / f"{i:02d}-{slug(text)}.mp3"
             if not mp3.exists():
-                audio = request(
-                    key,
-                    f"/text-to-speech/{v['voice_id']}?output_format=mp3_44100_128",
-                    {"text": text, "model_id": MODEL},
-                )
+                audio = speak(key, v["voice_id"], text)
                 mp3.write_bytes(audio)
             cells.append(f'<td><audio controls preload="none" src="{mp3.relative_to(OUT).as_posix()}"></audio></td>')
         rows.append(f"<tr><th>{html.escape(text)}</th>{''.join(cells)}</tr>")
