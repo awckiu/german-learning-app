@@ -1,0 +1,3065 @@
+rank	word	article	sentence
+1	der		Der Mann wartet am Bahnhof.
+2	die		Die Frau trinkt einen Kaffee.
+3	das		Das Haus ist sehr alt.
+4	ich		Ich heiße Nico.
+5	sein		Ich bin müde.
+6	du		Du bist sehr nett.
+7	sie		Sie kommt aus Spanien.
+8	haben		Wir haben keine Zeit.
+9	ein		Ich habe ein Auto.
+10	nicht		Das ist nicht schlimm.
+11	es		Es regnet heute.
+12	und		Ich trinke Kaffee und Tee.
+13	wir		Wir gehen nach Hause.
+14	er		Er arbeitet in Berlin.
+15	was		Was machst du heute?
+16	werden		Es wird kalt.
+17	zu		Ich gehe zu meiner Mutter.
+18	ihr		Habt ihr Hunger?
+19	in		Ich wohne in München.
+20	mein		Das ist mein Bruder.
+21	können		Kannst du mir helfen?
+22	ja		Ja, gerne!
+23	mit		Ich fahre mit dem Bus.
+24	wie		Wie geht es dir?
+25	auf		Das Buch liegt auf dem Tisch.
+26	dass		Ich glaube, dass er recht hat.
+27	aber		Ich bin müde, aber glücklich.
+28	wollen		Ich will nach Hause.
+29	gut		Das Essen ist gut.
+30	so		Das ist so schön!
+31	hier		Ich wohne hier.
+32	sagen		Was sagst du?
+33	für		Das ist für dich.
+34	gehen		Ich gehe jetzt.
+35	von		Das ist ein Brief von meiner Oma.
+36	alle		Alle sind da.
+37	kommen		Kommst du heute Abend?
+38	wenn		Wenn es regnet, bleibe ich zu Hause.
+39	machen		Was machst du am Wochenende?
+40	kein		Ich habe kein Geld.
+41	wissen		Ich weiß es nicht.
+42	müssen		Ich muss jetzt gehen.
+43	nein		Nein, danke.
+44	an		Das Bild hängt an der Wand.
+45	dieser		Dieser Film ist toll.
+46	sehen		Siehst du das Haus?
+47	noch		Ich bin noch nicht fertig.
+48	tun		Was kann ich für dich tun?
+49	nur		Ich habe nur fünf Euro.
+50	da		Ist Anna da?
+51	sich		Er freut sich.
+52	dein		Ist das dein Handy?
+53	sollen		Was soll ich machen?
+54	auch		Ich komme auch mit.
+55	geben		Gib mir bitte das Salz.
+56	schon		Bist du schon da?
+57	als		Er ist größer als ich.
+58	mal		Komm mal her!
+59	jetzt		Ich habe jetzt Zeit.
+60	dann		Dann gehen wir.
+61	aus		Ich komme aus Italien.
+62	um		Der Film beginnt um acht Uhr.
+63	im		Er ist im Garten.
+64	doch		Komm doch mit!
+65	lassen		Lass mich in Ruhe.
+66	oder		Kaffee oder Tee?
+67	hören		Ich höre gern Musik.
+68	nach		Nach dem Essen gehen wir spazieren.
+69	nichts		Ich habe nichts gesehen.
+70	man		Wie sagt man das auf Deutsch?
+71	bitten		Darf ich dich um etwas bitten?
+72	viel		Ich habe viel Arbeit.
+73	denken		Ich denke oft an dich.
+74	wo		Wo wohnst du?
+75	mehr		Ich möchte mehr Wasser.
+76	etwas		Möchtest du etwas trinken?
+77	oh		Oh, wie schön!
+78	bei		Ich wohne bei meinen Eltern.
+79	also		Also, was machen wir?
+80	immer		Er ist immer pünktlich.
+81	ganz		Das ist ganz einfach.
+82	wer		Wer ist das?
+83	unser		Das ist unser Haus.
+84	warum		Warum lachst du?
+85	vor		Ich warte vor dem Kino.
+86	glauben		Ich glaube dir.
+87	los		Was ist los?
+88	wieder		Er ist wieder da.
+89	finden		Ich finde meinen Schlüssel nicht.
+90	danken		Ich danke dir.
+91	anderer		Ich nehme die andere Tasche.
+92	sehr		Das ist sehr gut.
+93	denn		Was ist denn passiert?
+94	leben		Ich lebe in Deutschland.
+95	vielleicht		Vielleicht komme ich morgen.
+96	mögen		Ich mag Schokolade.
+97	brauchen		Ich brauche einen Stift.
+98	über		Wir sprechen über den Film.
+99	nehmen		Ich nehme den Bus.
+100	wirklich		Das ist wirklich lecker.
+101	nie		Ich trinke nie Kaffee.
+102	einfach		Die Aufgabe ist einfach.
+103	Frau	die	Die Frau liest ein Buch.
+104	weg		Mein Schlüssel ist weg.
+105	bringen		Bring bitte Brot mit.
+106	reden		Wir müssen reden.
+107	verstehen		Ich verstehe das nicht.
+108	warten		Ich warte auf den Zug.
+109	Zeit	die	Hast du Zeit?
+110	weil		Ich bleibe zu Hause, weil ich krank bin.
+111	schön		Das Wetter ist schön.
+112	jeder		Jeder Tag ist anders.
+113	bleiben		Ich bleibe heute zu Hause.
+114	heute		Heute ist Montag.
+115	sicher		Bist du sicher?
+116	fragen		Darf ich dich etwas fragen?
+117	Tag	der	Guten Tag!
+118	damit		Ich lerne, damit ich Deutsch spreche.
+119	jemand		Ist jemand zu Hause?
+120	kennen		Kennst du meine Schwester?
+121	weiß		Der Schnee ist weiß.
+122	Jahr	das	Ich bin zwanzig Jahre alt.
+123	Haus	das	Unser Haus hat einen Garten.
+124	Gott	der	Oh mein Gott!
+125	nun		Nun, was denkst du?
+126	helfen		Kann ich dir helfen?
+127	lieben		Ich liebe dich.
+128	erst		Es ist erst sieben Uhr.
+129	bis		Bis morgen!
+130	leid		Es tut mir leid.
+131	na		Na, wie geht's?
+132	klein		Die Wohnung ist klein.
+133	groß		Berlin ist sehr groß.
+134	zurück		Ich bin gleich zurück.
+135	stehen		Ich stehe an der Haltestelle.
+136	hallo		Hallo, wie geht's?
+137	Kind	das	Das Kind spielt im Park.
+138	halten		Der Bus hält hier.
+139	sprechen		Sprechen Sie Deutsch?
+140	alt		Wie alt bist du?
+141	zwei		Ich habe zwei Brüder.
+142	genau		Genau, das stimmt!
+143	Vater	der	Mein Vater ist Lehrer.
+144	klar		Klar, kein Problem!
+145	passieren		Was ist passiert?
+146	versuchen		Ich versuche es noch einmal.
+147	dürfen		Darf ich hier sitzen?
+148	morgen		Morgen habe ich frei.
+149	richtig		Die Antwort ist richtig.
+150	neu		Ich habe ein neues Handy.
+151	jung		Sie ist noch sehr jung.
+152	Leute	die	Die Leute sind nett hier.
+153	spielen		Die Kinder spielen Fußball.
+154	ab		Der Zug fährt um neun Uhr ab.
+155	gerade		Ich esse gerade.
+156	wohl		Das ist wohl richtig.
+157	Geld	das	Ich habe kein Geld dabei.
+158	gleich		Ich komme gleich.
+159	Mutter	die	Meine Mutter kocht gern.
+160	fahren		Ich fahre mit dem Fahrrad.
+161	durch		Wir gehen durch den Park.
+162	ob		Weißt du, ob er kommt?
+163	raus		Geh raus und spiel!
+164	Mensch	der	Er ist ein guter Mensch.
+165	euer		Ist das euer Auto?
+166	paar		Ich bleibe ein paar Tage.
+167	kriegen		Ich kriege eine Erkältung.
+168	sterben		Die Blumen sterben ohne Wasser.
+169	wieso		Wieso kommst du nicht?
+170	lieb		Das ist lieb von dir.
+171	erzählen		Erzähl mir eine Geschichte!
+172	stimmen		Das stimmt nicht.
+173	laufen		Ich laufe jeden Morgen.
+174	selbst		Ich mache das selbst.
+175	bekommen		Ich habe einen Brief bekommen.
+176	arbeiten		Ich arbeite im Büro.
+177	ohne		Ich trinke Kaffee ohne Zucker.
+178	recht		Du hast recht.
+179	suchen		Ich suche meine Brille.
+180	her		Komm her!
+181	essen		Wir essen um sieben Uhr.
+182	holen		Ich hole dich ab.
+183	schnell		Das Auto ist schnell.
+184	beide		Beide Kinder schlafen.
+185	natürlich		Natürlich helfe ich dir.
+186	Nacht	die	Gute Nacht!
+187	tot		Die Pflanze ist tot.
+188	Herr	der	Guten Morgen, Herr Müller.
+189	treffen		Wir treffen uns um acht.
+190	lange		Ich warte schon lange.
+191	stellen		Stell die Tasse auf den Tisch.
+192	spät		Es ist schon spät.
+193	ach		Ach so!
+194	gar		Ich habe gar keine Zeit.
+195	rufen		Ruf bitte ein Taxi.
+196	Sache	die	Das ist meine Sache.
+197	ins		Wir gehen ins Kino.
+198	dort		Dort ist der Bahnhof.
+199	fallen		Das Glas ist gefallen.
+200	weiter		Wir gehen weiter.
+201	niemand		Niemand ist zu Hause.
+202	seit		Ich lerne seit einem Monat Deutsch.
+203	vergessen		Ich habe meinen Schlüssel vergessen.
+204	Problem	das	Kein Problem!
+205	Ordnung	die	Alles in Ordnung.
+206	vom		Ich komme vom Arzt.
+207	davon		Ich habe nichts davon gewusst.
+208	dafür		Danke dafür!
+209	zeigen		Kannst du mir den Weg zeigen?
+210	Mädchen	das	Das Mädchen singt.
+211	wegen		Wegen des Regens bleiben wir hier.
+212	welcher		Welcher Bus fährt zum Bahnhof?
+213	Ding	das	Was ist das für ein Ding?
+214	sorgen		Mach dir keine Sorgen.
+215	hin		Wo gehst du hin?
+216	meinen		Was meinst du?
+217	rein		Komm rein!
+218	Abend	der	Guten Abend!
+219	drei		Ich habe drei Katzen.
+220	Freund	der	Mein Freund heißt Tom.
+221	fühlen		Ich fühle mich gut.
+222	Welt	die	Die Welt ist groß.
+223	schaffen		Du schaffst das!
+224	weit		Ist es weit von hier?
+225	unter		Die Katze schläft unter dem Tisch.
+226	liegen		Das Handy liegt auf dem Sofa.
+227	Angst	die	Ich habe Angst vor Hunden.
+228	zusammen		Wir lernen zusammen.
+229	echt		Echt? Das wusste ich nicht.
+230	schlafen		Ich schlafe acht Stunden.
+231	lang		Der Film ist lang.
+232	Hand	die	Gib mir deine Hand.
+233	heißen		Wie heißt du?
+234	wahr		Das ist nicht wahr.
+235	ziehen		Bitte ziehen!
+236	Moment	der	Einen Moment, bitte.
+237	schauen		Schau mal!
+238	genug		Ich habe genug gegessen.
+239	Familie	die	Meine Familie ist groß.
+240	gegen		Ich bin gegen den Plan.
+241	setzen		Setz dich bitte.
+242	sonst		Sonst noch etwas?
+243	Bruder	der	Mein Bruder ist älter als ich.
+244	Mann	der	Der Mann trägt einen Hut.
+245	Musik	die	Ich höre gern Musik.
+246	wenig		Ich habe wenig Zeit.
+247	dabei		Hast du deinen Ausweis dabei?
+248	erinnern		Ich erinnere mich an den Tag.
+249	Sohn	der	Ihr Sohn ist fünf Jahre alt.
+250	nah		Der Supermarkt ist ganz nah.
+251	Stunde	die	Der Kurs dauert eine Stunde.
+252	nennen		Man nennt ihn Max.
+253	sofort		Komm sofort her!
+254	bevor		Wasch dir die Hände, bevor du isst.
+255	toll		Das ist eine tolle Idee.
+256	entschuldigen		Entschuldigen Sie, wo ist der Bahnhof?
+257	passen		Die Hose passt mir nicht.
+258	einmal		Ich war einmal in Wien.
+259	letzter		Das ist der letzte Bus.
+260	Woche	die	Nächste Woche habe ich Urlaub.
+261	Auge	das	Sie hat blaue Augen.
+262	wann		Wann kommst du?
+263	fertig		Ich bin fertig.
+264	schlecht		Mir ist schlecht.
+265	Minute	die	Ich komme in fünf Minuten.
+266	halt		Das ist halt so.
+267	allein		Ich wohne allein.
+268	beim		Ich bin beim Arzt.
+269	einzig		Er ist mein einziger Bruder.
+270	wichtig		Das ist sehr wichtig.
+271	verschwinden		Die Sonne verschwindet hinter den Wolken.
+272	Hilfe	die	Danke für deine Hilfe!
+273	gern		Ich koche gern.
+274	darüber		Wir reden später darüber.
+275	trinken		Ich trinke Wasser.
+276	hoch		Der Berg ist sehr hoch.
+277	nett		Deine Freundin ist nett.
+278	dazu		Möchtest du Milch dazu?
+279	daran		Ich denke daran.
+280	schreiben		Ich schreibe eine Nachricht.
+281	Baby	das	Das Baby schläft.
+282	hoffen		Ich hoffe, du kommst.
+283	Dank	der	Vielen Dank!
+284	kurz		Die Pause ist kurz.
+285	egal		Das ist mir egal.
+286	Stadt	die	Hamburg ist eine schöne Stadt.
+287	eigentlich		Eigentlich bin ich müde.
+288	verlassen		Er verlässt das Haus um acht.
+289	Auto	das	Mein Auto ist rot.
+290	sitzen		Ich sitze im Zug.
+291	Uhr	die	Wie viel Uhr ist es?
+292	Typ	der	Der Typ ist komisch.
+293	schlagen		Mein Herz schlägt schnell.
+294	falsch		Das ist falsch.
+295	Tür	die	Mach bitte die Tür zu.
+296	schlimm		Das ist nicht schlimm.
+297	schwer		Der Koffer ist schwer.
+298	Kopf	der	Mein Kopf tut weh.
+299	Name	der	Wie ist dein Name?
+300	landen		Das Flugzeug landet um zehn.
+301	Glück	das	Viel Glück!
+302	lernen		Ich lerne Deutsch.
+303	retten		Die Feuerwehr rettet die Katze.
+304	Ende	das	Der Film hat ein schönes Ende.
+305	anrufen		Ich rufe dich später an.
+306	heiß		Der Tee ist heiß.
+307	darauf		Ich freue mich darauf.
+308	kaufen		Ich kaufe Brot.
+309	bedeuten		Was bedeutet das Wort?
+310	tragen		Sie trägt ein rotes Kleid.
+311	bald		Bis bald!
+312	lesen		Ich lese ein Buch.
+313	einige		Einige Leute warten.
+314	bisschen		Ich spreche ein bisschen Deutsch.
+315	scheinen		Die Sonne scheint.
+316	Kerl	der	Er ist ein netter Kerl.
+317	verrückt		Das ist verrückt!
+318	Idee	die	Gute Idee!
+319	bereit		Bist du bereit?
+320	Tod	der	Der Tod seiner Oma war traurig.
+321	Schwester	die	Meine Schwester wohnt in Köln.
+322	Monat	der	Der Kurs dauert einen Monat.
+323	führen		Der Weg führt zum See.
+324	Ahnung	die	Ich habe keine Ahnung.
+325	draußen		Die Kinder spielen draußen.
+326	legen		Leg das Buch auf den Tisch.
+327	Ruhe	die	Ich brauche Ruhe.
+328	ruhig		Hier ist es ruhig.
+329	Junge	der	Der Junge spielt Gitarre.
+330	versprechen		Ich verspreche es dir.
+331	Polizei	die	Ruf die Polizei!
+332	kümmern		Ich kümmere mich um die Kinder.
+333	Tochter	die	Ihre Tochter studiert Medizin.
+334	bestimmt		Er kommt bestimmt.
+335	eigen		Ich habe mein eigenes Zimmer.
+336	fast		Es ist fast acht Uhr.
+337	fangen		Der Hund fängt den Ball.
+338	planen		Wir planen eine Reise.
+339	runter		Komm runter!
+340	arm		Die Familie ist arm.
+341	Geschichte	die	Erzähl mir eine Geschichte.
+342	hinter		Der Garten ist hinter dem Haus.
+343	vorbei		Der Sommer ist vorbei.
+344	ziemlich		Es ist ziemlich kalt.
+345	lachen		Wir lachen viel.
+346	Grund	der	Aus welchem Grund?
+347	darum		Darum geht es nicht.
+348	Herz	das	Sie hat ein gutes Herz.
+349	beten		Er betet jeden Abend.
+350	klingen		Das klingt gut!
+351	verloren		Ich habe mich verloren gefühlt.
+352	folgen		Folgen Sie mir bitte.
+353	sogar		Er spricht sogar Japanisch.
+354	wagen		Wag es nicht!
+355	je		Je mehr, desto besser.
+356	woher		Woher kommst du?
+357	Job	der	Ich habe einen neuen Job.
+358	verlieren		Ich habe mein Handy verloren.
+359	wünschen		Ich wünsche dir alles Gute.
+360	gefallen		Gefällt dir das Kleid?
+361	gewinnen		Wir haben das Spiel gewonnen.
+362	Mama	die	Mama, ich habe Hunger!
+363	überhaupt		Das ist überhaupt nicht lustig.
+364	Seite	die	Lies bitte Seite zehn.
+365	Ort	der	Das ist ein schöner Ort.
+366	frei		Ist der Platz frei?
+367	ernst		Das ist mein Ernst.
+368	heiraten		Sie heiraten im Sommer.
+369	erwarten		Ich erwarte einen Anruf.
+370	hassen		Ich hasse Montage.
+371	beweisen		Kannst du das beweisen?
+372	oben		Mein Zimmer ist oben.
+373	gestern		Gestern war ich im Kino.
+374	Art	die	Das ist eine Art Kuchen.
+375	Schatz	der	Danke, mein Schatz.
+376	vermissen		Ich vermisse dich.
+377	endlich		Endlich Wochenende!
+378	etwa		Es kostet etwa zehn Euro.
+379	Wasser	das	Ein Glas Wasser, bitte.
+380	Chance	die	Das ist deine Chance.
+381	fünf		Ich stehe um fünf Uhr auf.
+382	Freundin	die	Meine Freundin wohnt in Wien.
+383	lügen		Du lügst!
+384	bezahlen		Kann ich mit Karte bezahlen?
+385	glücklich		Ich bin sehr glücklich.
+386	Wahrheit	die	Sag mir die Wahrheit.
+387	eben		Ich war eben im Supermarkt.
+388	stecken		Der Schlüssel steckt in der Tür.
+389	deshalb		Ich bin krank, deshalb bleibe ich zu Hause.
+390	erklären		Kannst du mir das erklären?
+391	Spaß	der	Das macht Spaß!
+392	ändern		Wir ändern den Plan.
+393	freuen		Ich freue mich auf das Wochenende.
+394	Zimmer	das	Mein Zimmer ist klein.
+395	vier		Wir sind vier Personen.
+396	Feuer	das	Das Feuer ist warm.
+397	fliegen		Wir fliegen nach Berlin.
+398	niemals		Ich gebe niemals auf.
+399	schuld		Das ist nicht deine Schuld.
+400	stark		Der Kaffee ist stark.
+401	möglich		Ist das möglich?
+402	schicken		Ich schicke dir ein Foto.
+403	oft		Ich gehe oft schwimmen.
+404	antworten		Bitte antworte mir.
+405	Wort	das	Ich kenne das Wort nicht.
+406	schließen		Der Laden schließt um acht.
+407	Gesicht	das	Sie hat ein freundliches Gesicht.
+408	manchmal		Manchmal koche ich.
+409	benutzen		Darf ich dein Handy benutzen?
+410	schreien		Das Baby schreit.
+411	zwischen		Die Bank ist zwischen der Post und dem Café.
+412	während		Während des Essens redet er viel.
+413	bluten		Meine Nase blutet.
+414	Film	der	Der Film war spannend.
+415	wohnen		Ich wohne in einer Wohnung.
+416	vertrauen		Ich vertraue dir.
+417	Schule	die	Die Kinder gehen zur Schule.
+418	verkaufen		Er verkauft sein Auto.
+419	Gefühl	das	Ich habe ein gutes Gefühl.
+420	fest		Halt dich fest!
+421	verdienen		Sie verdient gut.
+422	kämpfen		Er kämpft für seine Familie.
+423	reichen		Das reicht!
+424	anfangen		Der Kurs fängt morgen an.
+425	solcher		Ich habe solchen Hunger.
+426	beginnen		Der Unterricht beginnt um neun.
+427	Entschuldigung	die	Entschuldigung, wie spät ist es?
+428	wiedersehen		Auf Wiedersehen!
+429	früh		Ich stehe früh auf.
+430	ehrlich		Sei ehrlich!
+431	Hund	der	Der Hund bellt.
+432	verstecken		Die Kinder verstecken sich.
+433	bloß		Ich wollte bloß fragen.
+434	aufhören		Hör auf damit!
+435	funktionieren		Die Maschine funktioniert nicht.
+436	Nachricht	die	Ich habe deine Nachricht gelesen.
+437	geschehen		Was ist geschehen?
+438	böse		Bist du mir böse?
+439	weinen		Warum weinst du?
+440	hart		Das Brot ist hart.
+441	voll		Der Bus ist voll.
+442	falls		Falls es regnet, nehme ich einen Schirm.
+443	unten		Die Küche ist unten.
+444	Teil	der	Das ist nur ein Teil der Geschichte.
+445	derselbe		Wir haben dieselbe Jacke.
+446	leicht		Die Tasche ist leicht.
+447	langsam		Bitte sprich langsam.
+448	dumm		Das war eine dumme Idee.
+449	besuchen		Ich besuche meine Oma.
+450	Eltern	die	Meine Eltern wohnen auf dem Land.
+451	werfen		Wirf den Ball!
+452	Nummer	die	Wie ist deine Nummer?
+453	laut		Die Musik ist zu laut.
+454	Schiff	das	Das Schiff fährt nach Hamburg.
+455	schätzen		Ich schätze deine Hilfe.
+456	drauf		Hast du das Lied drauf?
+457	irgendwie		Irgendwie ist das komisch.
+458	König	der	Der König lebt im Schloss.
+459	außer		Alle außer Tom sind da.
+460	kaum		Ich kann kaum schlafen.
+461	irgendwas		Hast du irgendwas gehört?
+462	singen		Sie singt sehr schön.
+463	Platz	der	Ist dieser Platz frei?
+464	erfahren		Wann hast du das erfahren?
+465	Papa	der	Papa kommt heute spät.
+466	sondern		Das ist nicht rot, sondern orange.
+467	Telefon	das	Das Telefon klingelt.
+468	Arzt	der	Ich muss zum Arzt.
+469	öffnen		Kannst du das Fenster öffnen?
+470	dauern		Wie lange dauert die Fahrt?
+471	früher		Früher habe ich in Rom gewohnt.
+472	erledigen		Ich muss noch etwas erledigen.
+473	hübsch		Das Kleid ist hübsch.
+474	interessieren		Ich interessiere mich für Kunst.
+475	drehen		Dreh dich mal um!
+476	wohin		Wohin fährst du?
+477	wahrscheinlich		Es regnet wahrscheinlich morgen.
+478	verletzen		Er hat sich am Bein verletzt.
+479	zuerst		Zuerst frühstücke ich.
+480	froh		Ich bin froh, dass du da bist.
+481	Fehler	der	Das war ein Fehler.
+482	Menge	die	Das kostet eine Menge Geld.
+483	willkommen		Herzlich willkommen!
+484	Straße	die	Die Straße ist sehr lang.
+485	Dame	die	Die Dame trägt einen Hut.
+486	tanzen		Wir tanzen die ganze Nacht.
+487	süß		Der Kuchen ist sehr süß.
+488	hierher		Komm hierher!
+489	Büro	das	Ich arbeite im Büro.
+490	klappen		Hat alles geklappt?
+491	vorstellen		Darf ich mich vorstellen?
+492	direkt		Das Hotel ist direkt am Meer.
+493	laden		Mein Handy lädt.
+494	zehn		Es ist zehn Uhr.
+495	reisen		Ich reise gern.
+496	hängen		Das Bild hängt an der Wand.
+497	perfekt		Das ist perfekt!
+498	sechs		Ich stehe um sechs Uhr auf.
+499	bereits		Er ist bereits weg.
+500	großartig		Das ist eine großartige Idee.
+501	steigen		Steig bitte ein!
+502	bewegen		Ich bewege mich zu wenig.
+503	krank		Ich bin krank.
+504	behalten		Du kannst das Buch behalten.
+505	erkennen		Ich habe dich nicht erkannt.
+506	schwarz		Ich trinke den Kaffee schwarz.
+507	bauen		Sie bauen ein Haus.
+508	Sekunde	die	Warte eine Sekunde!
+509	zahlen		Ich möchte bitte zahlen.
+510	stehlen		Jemand hat mein Fahrrad gestohlen.
+511	buchen		Ich buche ein Hotelzimmer.
+512	zweiter		Das ist mein zweiter Versuch.
+513	schick		Du siehst schick aus!
+514	cool		Das ist cool!
+515	brechen		Er hat sich den Arm gebrochen.
+516	leider		Leider habe ich keine Zeit.
+517	Doktor	der	Der Doktor ist sehr nett.
+518	Foto	das	Das Foto ist schön.
+519	Million	die	Die Stadt hat eine Million Einwohner.
+520	ansehen		Wir sehen uns den Film an.
+521	Stück	das	Ein Stück Kuchen, bitte.
+522	trotzdem		Es regnet, trotzdem gehe ich raus.
+523	Kumpel	der	Er ist mein bester Kumpel.
+524	total		Ich bin total müde.
+525	völlig		Das ist völlig normal.
+526	fehlen		Was fehlt dir?
+527	halb		Es ist halb drei.
+528	überall		Überall liegt Schnee.
+529	gehören		Wem gehört die Tasche?
+530	normal		Das ist ganz normal.
+531	zerstören		Der Sturm hat das Dach zerstört.
+532	reich		Er ist sehr reich.
+533	danach		Danach gehen wir essen.
+534	melden		Ich melde mich morgen.
+535	deswegen		Deswegen bin ich hier.
+536	alleine		Ich gehe alleine nach Hause.
+537	Ehre	die	Es ist mir eine Ehre.
+538	regeln		Wir regeln das morgen.
+539	Party	die	Kommst du zur Party?
+540	tief		Der See ist tief.
+541	Kaffee	der	Ich trinke morgens Kaffee.
+542	Person	die	Ein Tisch für zwei Personen, bitte.
+543	Luft	die	Die Luft ist frisch.
+544	raten		Rate mal, wer da ist!
+545	Sinn	der	Das macht keinen Sinn.
+546	Erde	die	Die Erde ist rund.
+547	schrecklich		Das Wetter ist schrecklich.
+548	träumen		Ich träume vom Urlaub.
+549	fassen		Ich kann es nicht fassen.
+550	wert		Das ist es wert.
+551	zwar		Das ist zwar teuer, aber gut.
+552	aussehen		Du siehst müde aus.
+553	Wahl	die	Du hast die Wahl.
+554	Onkel	der	Mein Onkel wohnt in Hamburg.
+555	übernehmen		Ich übernehme die Rechnung.
+556	gefährlich		Das ist gefährlich!
+557	Witz	der	Erzähl mir einen Witz.
+558	komisch		Das schmeckt komisch.
+559	bilden		Bildet bitte Gruppen.
+560	lustig		Der Film ist lustig.
+561	stören		Störe ich?
+562	blöd		Das ist echt blöd.
+563	meist		Ich fahre meist mit dem Rad.
+564	super		Das ist super!
+565	erreichen		Wir erreichen den Zug noch.
+566	Licht	das	Mach bitte das Licht an.
+567	treten		Bitte nicht auf den Rasen treten.
+568	kosten		Was kostet das?
+569	Körper	der	Sport ist gut für den Körper.
+570	wunderbar		Das ist wunderbar!
+571	damals		Damals war ich noch klein.
+572	Haar	das	Sie hat lange Haare.
+573	persönlich		Das ist persönlich.
+574	nachdem		Nachdem ich gegessen habe, schlafe ich.
+575	unglaublich		Das ist unglaublich!
+576	Rest	der	Den Rest esse ich morgen.
+577	irgendwo		Mein Schlüssel ist irgendwo hier.
+578	genauso		Ich sehe das genauso.
+579	Zukunft	die	Was planst du für die Zukunft?
+580	Krankenhaus	das	Er liegt im Krankenhaus.
+581	gucken		Wir gucken einen Film.
+582	Pferd	das	Das Pferd läuft schnell.
+583	Himmel	der	Der Himmel ist blau.
+584	drüben		Da drüben ist die Apotheke.
+585	merken		Das merke ich mir.
+586	herausfinden		Ich finde es heraus.
+587	Wohnung	die	Meine Wohnung hat drei Zimmer.
+588	teilen		Wir teilen die Pizza.
+589	beruhigen		Beruhig dich!
+590	Schlüssel	der	Wo ist mein Schlüssel?
+591	stolz		Ich bin stolz auf dich.
+592	still		Sei bitte still.
+593	seltsam		Das ist seltsam.
+594	besonders		Das Essen ist besonders gut.
+595	Bein	das	Mein Bein tut weh.
+596	rot		Die Ampel ist rot.
+597	verraten		Verrat es niemandem!
+598	eher		Ich komme eher morgen.
+599	Team	das	Wir sind ein gutes Team.
+600	Entscheidung	die	Das ist eine schwere Entscheidung.
+601	nachdenken		Ich muss darüber nachdenken.
+602	vorsichtig		Sei vorsichtig!
+603	außerdem		Außerdem habe ich keine Zeit.
+604	rollen		Der Ball rollt unter das Auto.
+605	offen		Die Tür ist offen.
+606	kalt		Mir ist kalt.
+607	fürchten		Ich fürchte, das geht nicht.
+608	nötig		Das ist nicht nötig.
+609	sobald		Ich rufe an, sobald ich da bin.
+610	nochmal		Sag das nochmal!
+611	weh		Mein Bauch tut weh.
+612	beeilen		Beeil dich!
+613	klasse		Das war klasse!
+614	entscheiden		Du musst dich entscheiden.
+615	Karte	die	Kann ich mit Karte zahlen?
+616	Gedanke	der	Das ist ein guter Gedanke.
+617	wenigstens		Wenigstens regnet es nicht.
+618	Handy	das	Mein Handy ist leer.
+619	Boden	der	Das Buch liegt auf dem Boden.
+620	irgendein		Gib mir irgendein Buch.
+621	Sicherheit	die	Sicherheit ist wichtig.
+622	verändern		Die Stadt hat sich verändert.
+623	Tier	das	Welches Tier magst du?
+624	Schluss	der	Schluss für heute!
+625	bekannt		Der Sänger ist sehr bekannt.
+626	bestehen		Ich habe die Prüfung bestanden.
+627	solange		Bleib, solange du willst.
+628	Schmerz	der	Ich habe Schmerzen.
+629	Boss	der	Mein Boss ist streng.
+630	berichten		Die Zeitung berichtet darüber.
+631	heilig		Heiligabend ist am 24. Dezember.
+632	schwören		Ich schwöre es dir.
+633	Mund	der	Mach den Mund auf.
+634	interessant		Das Buch ist interessant.
+635	Information	die	Ich brauche mehr Informationen.
+636	Anwalt	der	Er ist Anwalt.
+637	Meinung	die	Was ist deine Meinung?
+638	überlegen		Ich überlege es mir.
+639	erwischen		Ich habe den Bus erwischt.
+640	irren		Da irrst du dich.
+641	Geheimnis	das	Das ist ein Geheimnis.
+642	küssen		Sie küsst ihn.
+643	stoppen		Stopp!
+644	unmöglich		Das ist unmöglich.
+645	Geschäft	das	Das Geschäft ist geschlossen.
+646	verlangen		Er verlangt zu viel Geld.
+647	verbringen		Wir verbringen den Sommer am Meer.
+648	kennenlernen		Schön, dich kennenzulernen!
+649	aufhalten		Ich will dich nicht aufhalten.
+650	selber		Mach es selber!
+651	wetten		Wetten, dass er zu spät kommt?
+652	Hotel	das	Das Hotel ist am Bahnhof.
+653	plötzlich		Plötzlich ging das Licht aus.
+654	handeln		Wir müssen jetzt handeln.
+655	bescheiden		Sie ist sehr bescheiden.
+656	gewiss		Das ist gewiss richtig.
+657	Verzeihung	die	Verzeihung, ist hier noch frei?
+658	mitnehmen		Nimm einen Schirm mit!
+659	Tisch	der	Das Essen steht auf dem Tisch.
+660	Punkt	der	Das ist ein guter Punkt.
+661	Marke	die	Welche Marke ist das?
+662	aufs		Ich freue mich aufs Wochenende.
+663	schützen		Die Jacke schützt vor Regen.
+664	traurig		Warum bist du traurig?
+665	feiern		Wir feiern meinen Geburtstag.
+666	vorher		Ruf vorher an!
+667	zählen		Zähl bis zehn!
+668	Liebling	der	Was ist dein Lieblingsessen?
+669	wunderschön		Der Garten ist wunderschön.
+670	riechen		Das riecht gut!
+671	Geschenk	das	Danke für das Geschenk!
+672	hinten		Hinten ist noch Platz.
+673	schnappen		Ich schnappe ein bisschen Luft.
+674	tatsächlich		Das ist tatsächlich passiert.
+675	greifen		Greif zu!
+676	Soldat	der	Der Soldat steht vor dem Schloss.
+677	acht		Ich arbeite acht Stunden.
+678	wundern		Ich wundere mich.
+679	deutsch		Ich lerne die deutsche Sprache.
+680	erhalten		Ich habe Ihre E-Mail erhalten.
+681	heraus		Komm heraus!
+682	spüren		Ich spüre den Wind.
+683	Beziehung	die	Sie haben eine gute Beziehung.
+684	besitzen		Er besitzt zwei Autos.
+685	Seele	die	Musik ist gut für die Seele.
+686	Kampf	der	Es war ein harter Kampf.
+687	Präsident	der	Der Präsident hält eine Rede.
+688	ständig		Er ist ständig müde.
+689	beenden		Wir beenden das Spiel.
+690	überraschen		Ich will dich überraschen.
+691	Leben	das	Das Leben ist schön.
+692	verfolgen		Der Hund verfolgt die Katze.
+693	jemals		Warst du jemals in Berlin?
+694	rennen		Die Kinder rennen zum Spielplatz.
+695	Bewegung	die	Bewegung ist gesund.
+696	dienen		Wozu dient das?
+697	springen		Der Hund springt über den Zaun.
+698	sieben		Die Woche hat sieben Tage.
+699	treiben		Ich treibe gern Sport.
+700	aufgeben		Gib nicht auf!
+701	obwohl		Ich gehe raus, obwohl es regnet.
+702	blicken		Er blickt aus dem Fenster.
+703	überprüfen		Bitte überprüfe die Adresse.
+704	Zug	der	Der Zug hat Verspätung.
+705	verpassen		Ich habe den Bus verpasst.
+706	verheiratet		Bist du verheiratet?
+707	unterwegs		Ich bin gerade unterwegs.
+708	Ärger	der	Ich habe Ärger mit dem Chef.
+709	wirken		Die Tablette wirkt schnell.
+710	Augenblick	der	Einen Augenblick, bitte.
+711	weise		Sie ist eine weise Frau.
+712	Tasche	die	Meine Tasche ist schwer.
+713	dagegen		Ich habe nichts dagegen.
+714	zurückkommen		Wann kommst du zurück?
+715	packen		Ich packe meinen Koffer.
+716	wach		Bist du schon wach?
+717	kochen		Ich koche Nudeln.
+718	Traum	der	Ich hatte einen schönen Traum.
+719	behandeln		Der Arzt behandelt den Patienten.
+720	besorgen		Ich besorge die Getränke.
+721	leiden		Er leidet an Kopfschmerzen.
+722	Möglichkeit	die	Es gibt viele Möglichkeiten.
+723	schulden		Du schuldest mir zehn Euro.
+724	zwingen		Niemand zwingt dich.
+725	wählen		Wähle eine Farbe!
+726	erlauben		Das ist hier nicht erlaubt.
+727	ewig		Das dauert ewig!
+728	Fenster	das	Mach das Fenster zu.
+729	fort		Er ist schon fort.
+730	schneiden		Ich schneide das Brot.
+731	Polizist	der	Der Polizist hilft uns.
+732	Partner	der	Mein Partner kommt aus Italien.
+733	Gefahr	die	Achtung, Gefahr!
+734	Ziel	das	Was ist dein Ziel?
+735	rum		Dreh dich rum!
+736	Verbindung	die	Die Verbindung ist schlecht.
+737	Anfang	der	Am Anfang war es schwer.
+738	Chef	der	Mein Chef ist im Urlaub.
+739	verzeihen		Verzeih mir!
+740	Unfall	der	Es gab einen Unfall.
+741	schwierig		Die Frage ist schwierig.
+742	annehmen		Ich nehme das Angebot an.
+743	Bier	das	Ein Bier, bitte.
+744	rücken		Kannst du ein bisschen rücken?
+745	mancher		Manche Leute mögen keinen Käse.
+746	gemeinsam		Wir kochen gemeinsam.
+747	aufnehmen		Ich nehme ein Video auf.
+748	leer		Die Flasche ist leer.
+749	Finger	der	Ich habe mir in den Finger geschnitten.
+750	fürs		Danke fürs Zuhören!
+751	furchtbar		Das Wetter ist furchtbar.
+752	Gesetz	das	Das ist gegen das Gesetz.
+753	bieten		Die Stadt bietet viel.
+754	herum		Wir laufen in der Stadt herum.
+755	schenken		Ich schenke dir Blumen.
+756	Geist	der	Glaubst du an Geister?
+757	enden		Der Film endet um zehn.
+758	einladen		Ich lade dich zum Essen ein.
+759	beschützen		Der Hund beschützt das Haus.
+760	Hochzeit	die	Die Hochzeit ist im Juni.
+761	lösen		Wir lösen das Problem.
+762	wozu		Wozu brauchst du das?
+763	rauchen		Hier darf man nicht rauchen.
+764	Schwein	das	Das Schwein ist im Stall.
+765	dunkel		Es wird schon dunkel.
+766	Boot	das	Wir fahren mit dem Boot.
+767	hoffentlich		Hoffentlich scheint morgen die Sonne.
+768	Schuh	der	Meine Schuhe sind nass.
+769	zuhause		Ich bin zuhause.
+770	nutzen		Ich nutze die Zeit zum Lesen.
+771	beschäftigen		Ich bin gerade beschäftigt.
+772	Firma	die	Sie arbeitet bei einer großen Firma.
+773	fremd		Ich bin fremd hier.
+774	sauber		Die Küche ist sauber.
+775	irgendwann		Irgendwann fahre ich nach Japan.
+776	müde		Ich bin so müde.
+777	jedenfalls		Jedenfalls war es lustig.
+778	leisten		Das kann ich mir nicht leisten.
+779	rüber		Komm rüber!
+780	tschüss		Tschüss, bis morgen!
+781	Raum	der	Der Raum ist hell.
+782	Hunger	der	Ich habe Hunger.
+783	irgendetwas		Möchtest du irgendetwas trinken?
+784	Richtung	die	In welche Richtung müssen wir?
+785	bisher		Bisher war alles gut.
+786	unbedingt		Du musst unbedingt kommen!
+787	Ohr	das	Mein Ohr tut weh.
+788	blau		Das Meer ist blau.
+789	drücken		Drück den Knopf!
+790	wofür		Wofür ist das?
+791	herkommen		Wo kommst du her?
+792	Kontrolle	die	Alles unter Kontrolle.
+793	trennen		Wir trennen den Müll.
+794	Kamera	die	Die Kamera ist neu.
+795	erwähnen		Hat er das erwähnt?
+796	Beispiel	das	Kannst du ein Beispiel geben?
+797	Bar	die	Wir treffen uns in der Bar.
+798	Überraschung	die	Was für eine Überraschung!
+799	Brief	der	Ich schreibe einen Brief.
+800	sauer		Bist du sauer auf mich?
+801	Bank	die	Ich gehe zur Bank.
+802	beobachten		Ich beobachte die Vögel.
+803	Volk	das	Das Volk wählt den Präsidenten.
+804	Flugzeug	das	Das Flugzeug ist pünktlich.
+805	frisch		Das Brot ist frisch.
+806	dahin		Wie komme ich dahin?
+807	klingeln		Es klingelt an der Tür.
+808	darin		Was ist darin?
+809	Vorsicht	die	Vorsicht, Stufe!
+810	zumindest		Zumindest ist es warm.
+811	aufpassen		Pass auf!
+812	Lage	die	Die Wohnung hat eine gute Lage.
+813	sowieso		Ich komme sowieso vorbei.
+814	Kraft	die	Ich habe keine Kraft mehr.
+815	Gericht	das	Das ist mein Lieblingsgericht.
+816	übel		Mir ist übel.
+817	Tante	die	Meine Tante backt Kuchen.
+818	decken		Ich decke den Tisch.
+819	trauen		Ich traue mich nicht.
+820	Erinnerung	die	Das ist eine schöne Erinnerung.
+821	kaputt		Mein Handy ist kaputt.
+822	Held	der	Du bist mein Held!
+823	genießen		Ich genieße die Sonne.
+824	Geburtstag	der	Alles Gute zum Geburtstag!
+825	Hoffnung	die	Ich habe noch Hoffnung.
+826	nächster		Nächste Woche fahre ich weg.
+827	Wald	der	Wir gehen im Wald spazieren.
+828	Wind	der	Der Wind ist stark.
+829	Preis	der	Der Preis ist gut.
+830	warnen		Ich warne dich!
+831	Kirche	die	Die Kirche ist sehr alt.
+832	Frieden	der	Wir wollen Frieden.
+833	verliebt		Sie ist verliebt.
+834	überleben		Die Pflanze hat den Winter überlebt.
+835	neben		Ich sitze neben dir.
+836	dick		Das Buch ist dick.
+837	witzig		Er ist sehr witzig.
+838	gesund		Obst ist gesund.
+839	leise		Bitte sei leise.
+840	Dach	das	Die Katze sitzt auf dem Dach.
+841	testen		Ich teste die App.
+842	vermutlich		Er kommt vermutlich später.
+843	starten		Das Flugzeug startet.
+844	näher		Komm näher!
+845	offensichtlich		Das ist offensichtlich.
+846	Fisch	der	Ich esse gern Fisch.
+847	ans		Wir fahren ans Meer.
+848	Patient	der	Der Patient wartet.
+849	links		Biegen Sie links ab.
+850	Professor	der	Der Professor erklärt gut.
+851	wachsen		Die Blumen wachsen schnell.
+852	unschuldig		Er ist unschuldig.
+853	nerven		Du nervst!
+854	menschlich		Das ist menschlich.
+855	Sonne	die	Die Sonne scheint.
+856	schuldig		Er ist schuldig.
+857	erleben		Wir haben viel erlebt.
+858	Anruf	der	Danke für deinen Anruf.
+859	Nase	die	Meine Nase läuft.
+860	Regierung	die	Die Regierung plant neue Gesetze.
+861	Show	die	Die Show beginnt um acht.
+862	parken		Wo kann ich parken?
+863	wild		Die Kinder sind wild.
+864	entfernt		Das Dorf ist zehn Kilometer entfernt.
+865	verbinden		Die Brücke verbindet die Städte.
+866	Berg	der	Wir wandern auf den Berg.
+867	Kleid	das	Das Kleid ist blau.
+868	diesmal		Diesmal gewinne ich!
+869	schade		Schade!
+870	entdecken		Wir entdecken die Stadt.
+871	nicken		Er nickt.
+872	vorbereiten		Ich bereite das Essen vor.
+873	geraten		Wir sind in einen Stau geraten.
+874	Computer	der	Mein Computer ist langsam.
+875	ankommen		Wann kommt der Zug an?
+876	verwenden		Ich verwende das Wörterbuch.
+877	ausgehen		Wir gehen heute Abend aus.
+878	lächeln		Sie lächelt.
+879	nämlich		Ich bin müde, ich habe nämlich wenig geschlafen.
+880	probieren		Probier mal den Kuchen!
+881	unterscheiden		Ich kann die Zwillinge nicht unterscheiden.
+882	Gebäude	das	Das Gebäude ist modern.
+883	klopfen		Es klopft an der Tür.
+884	Weihnachten	das	Frohe Weihnachten!
+885	Situation	die	Die Situation ist schwierig.
+886	befinden		Das Café befindet sich im Zentrum.
+887	naja		Naja, es geht.
+888	hinterlassen		Möchten Sie eine Nachricht hinterlassen?
+889	Armee	die	Er war in der Armee.
+890	Zeitung	die	Ich lese die Zeitung.
+891	erwachsen		Die Kinder sind schon erwachsen.
+892	Kontakt	der	Wir bleiben in Kontakt.
+893	Gold	das	Der Ring ist aus Gold.
+894	klug		Sie ist sehr klug.
+895	reißen		Das Papier reißt.
+896	Stein	der	Der Stein ist schwer.
+897	verhalten		Er verhält sich komisch.
+898	abholen		Ich hole dich am Bahnhof ab.
+899	Maschine	die	Die Maschine ist laut.
+900	fantastisch		Das Essen ist fantastisch!
+901	Schicksal	das	Das war Schicksal.
+902	gegenüber		Die Bank ist gegenüber vom Café.
+903	Lust	die	Hast du Lust auf Kino?
+904	nervös		Ich bin nervös.
+905	übrigens		Übrigens, ich habe einen Hund.
+906	verantwortlich		Wer ist dafür verantwortlich?
+907	übrig		Ist noch Kuchen übrig?
+908	heim		Ich gehe jetzt heim.
+909	schmecken		Das schmeckt lecker!
+910	Gespräch	das	Das war ein gutes Gespräch.
+911	gründen		Sie gründet eine Firma.
+912	bestellen		Ich bestelle eine Pizza.
+913	unternehmen		Was wollen wir heute unternehmen?
+914	Hose	die	Die Hose ist zu lang.
+915	geheim		Das ist geheim.
+916	graben		Der Hund gräbt ein Loch.
+917	rechts		Gehen Sie rechts.
+918	miteinander		Wir reden miteinander.
+919	Lied	das	Das Lied ist schön.
+920	Richter	der	Der Richter entscheidet.
+921	weder		Ich trinke weder Kaffee noch Tee.
+922	Ehemann	der	Ihr Ehemann ist Arzt.
+923	Gesellschaft	die	Danke für die Gesellschaft.
+924	Vergangenheit	die	Das ist Vergangenheit.
+925	Tee	der	Möchtest du einen Tee?
+926	unterhalten		Wir unterhalten uns gut.
+927	Freude	die	Das macht mir Freude.
+928	entweder		Entweder heute oder morgen.
+929	Gruppe	die	Wir lernen in einer Gruppe.
+930	grün		Die Ampel ist grün.
+931	Königin	die	Die Königin winkt.
+932	Glückwunsch	der	Herzlichen Glückwunsch!
+933	Grenze	die	Wir fahren über die Grenze.
+934	Hals	der	Mein Hals tut weh.
+935	Buch	das	Das Buch ist spannend.
+936	Flasche	die	Eine Flasche Wasser, bitte.
+937	unterschreiben		Bitte unterschreiben Sie hier.
+938	frühstücken		Wir frühstücken um sieben.
+939	Küche	die	Die Küche ist groß.
+940	mitkommen		Kommst du mit?
+941	streiten		Die Kinder streiten oft.
+942	schwanger		Sie ist schwanger.
+943	Blume	die	Die Blume riecht gut.
+944	fliehen		Die Katze flieht vor dem Hund.
+945	Zeichen	das	Das ist ein gutes Zeichen.
+946	Adresse	die	Wie ist deine Adresse?
+947	brennen		Das Licht brennt noch.
+948	aufstehen		Ich stehe um sieben auf.
+949	quatschen		Wir quatschen stundenlang.
+950	schwach		Ich fühle mich schwach.
+951	Regen	der	Der Regen hört nicht auf.
+952	Gegend	die	Die Gegend ist schön.
+953	Vergnügen	das	Mit Vergnügen!
+954	anziehen		Zieh eine Jacke an!
+955	vertragen		Ich vertrage keine Milch.
+956	gelten		Das Ticket gilt einen Tag.
+957	behaupten		Er behauptet, er war zu Hause.
+958	konzentrieren		Ich kann mich nicht konzentrieren.
+959	allerdings		Das ist allerdings teuer.
+960	Fuß	der	Ich gehe zu Fuß.
+961	empfangen		Wir empfangen die Gäste.
+962	soweit		Soweit ich weiß, ja.
+963	ähnlich		Die Schwestern sind sich ähnlich.
+964	entspannen		Am Wochenende entspanne ich.
+965	lauten		Wie lautet deine Nummer?
+966	aufwachen		Ich wache früh auf.
+967	untersuchen		Der Arzt untersucht das Kind.
+968	worauf		Worauf wartest du?
+969	Dorf	das	Das Dorf ist klein.
+970	lächerlich		Das ist lächerlich.
+971	Achtung	die	Achtung, der Zug fährt ab!
+972	warm		Heute ist es warm.
+973	statt		Ich trinke Tee statt Kaffee.
+974	Interesse	das	Ich habe Interesse an Musik.
+975	Staat	der	Der Staat zahlt die Schule.
+976	scherzen		Du scherzt!
+977	drucken		Ich drucke das Ticket aus.
+978	Messer	das	Das Messer ist scharf.
+979	betrunken		Er ist betrunken.
+980	Glas	das	Ein Glas Saft, bitte.
+981	bemerken		Hast du etwas bemerkt?
+982	System	das	Das System ist einfach.
+983	herein		Herein!
+984	akzeptieren		Akzeptieren Sie Kreditkarten?
+985	Kunde	der	Der Kunde wartet.
+986	ungefähr		Das kostet ungefähr zwanzig Euro.
+987	befreien		Sie befreien den Vogel.
+988	Abendessen	das	Das Abendessen ist fertig.
+989	teuer		Das Hotel ist teuer.
+990	neun		Der Laden öffnet um neun.
+991	Katze	die	Die Katze schläft auf dem Sofa.
+992	Wochenende	das	Schönes Wochenende!
+993	nahe		Wir wohnen nahe am Park.
+994	Papier	das	Hast du ein Blatt Papier?
+995	verbieten		Rauchen ist hier verboten.
+996	Aufgabe	die	Die Aufgabe ist schwer.
+997	kontrollieren		Die Fahrkarten werden kontrolliert.
+998	drinnen		Wir bleiben drinnen.
+999	reinkommen		Komm doch rein!
+1000	zuvor		Ich war nie zuvor hier.
+1001	begleiten		Ich begleite dich nach Hause.
+1002	richten		Die Frage richtet sich an dich.
+1003	Hälfte	die	Die Hälfte ist für dich.
+1004	Insel	die	Wir machen Urlaub auf einer Insel.
+1005	fern		Das Land ist fern.
+1006	Ball	der	Der Ball ist rund.
+1007	hingehen		Gehst du da hin?
+1008	Angebot	das	Das Angebot ist gut.
+1009	baden		Das Baby badet.
+1010	rauskommen		Komm raus!
+1011	bestätigen		Bitte bestätigen Sie die Buchung.
+1012	Schwierigkeit	die	Ich habe Schwierigkeiten mit der Grammatik.
+1013	Respekt	der	Ich habe Respekt vor ihr.
+1014	heben		Ich kann den Koffer nicht heben.
+1015	vorne		Ich sitze vorne.
+1016	Unsinn	der	Das ist Unsinn!
+1017	leiten		Sie leitet das Team.
+1018	Prinz	der	Der Prinz lebt im Schloss.
+1019	davor		Davor war ich in Paris.
+1020	grüßen		Grüß deine Mutter von mir!
+1021	ernsthaft		Ernsthaft?
+1022	reparieren		Ich repariere das Fahrrad.
+1023	zufällig		Ich habe ihn zufällig getroffen.
+1024	zufrieden		Ich bin zufrieden.
+1025	reiten		Sie reitet gern.
+1026	Prinzessin	die	Die Prinzessin tanzt.
+1027	fernsehen		Wir sehen abends fern.
+1028	zuhören		Hör mir zu!
+1029	Planet	der	Die Erde ist ein Planet.
+1030	Bild	das	Das Bild ist schön.
+1031	zurückkehren		Er kehrt nach Hause zurück.
+1032	besprechen		Wir besprechen das morgen.
+1033	begreifen		Ich begreife das nicht.
+1034	herzlich		Herzlich willkommen!
+1035	wehtun		Das tut weh!
+1036	verschieden		Wir sind sehr verschieden.
+1037	Kollege	der	Mein Kollege ist krank.
+1038	wechseln		Ich wechsle das Thema.
+1039	Tor	das	Er schießt ein Tor.
+1040	stammen		Ich stamme aus Italien.
+1041	erscheinen		Das Buch erscheint im Mai.
+1042	Meer	das	Wir fahren ans Meer.
+1043	See	der	Der See ist klar.
+1044	Neuigkeit	die	Gibt es Neuigkeiten?
+1045	wundervoll		Das ist wundervoll!
+1046	Farbe	die	Was ist deine Lieblingsfarbe?
+1047	entwickeln		Die Stadt entwickelt sich schnell.
+1048	worüber		Worüber sprecht ihr?
+1049	Erfahrung	die	Ich habe viel Erfahrung.
+1050	betrügen		Er hat mich betrogen.
+1051	Verbrechen	das	Das ist ein Verbrechen.
+1052	bereiten		Das bereitet mir Freude.
+1053	stechen		Die Biene sticht.
+1054	Gehirn	das	Das Gehirn braucht Schlaf.
+1055	nachts		Nachts ist es ruhig.
+1056	Position	die	Welche Position spielst du?
+1057	Meter	der	Der Bahnhof ist hundert Meter entfernt.
+1058	riesig		Das Haus ist riesig.
+1059	schließlich		Schließlich hat es geklappt.
+1060	Risiko	das	Das Risiko ist groß.
+1061	erfüllen		Mein Traum hat sich erfüllt.
+1062	Auftrag	der	Wir haben einen neuen Auftrag.
+1063	anbieten		Darf ich Ihnen etwas anbieten?
+1064	siegen		Unsere Mannschaft siegt.
+1065	Plan	der	Was ist der Plan?
+1066	Freiheit	die	Freiheit ist wichtig.
+1067	existieren		Gibt es das wirklich?
+1068	Stern	der	Die Sterne leuchten.
+1069	Ei	das	Ich esse ein Ei zum Frühstück.
+1070	spinnen		Du spinnst!
+1071	betrachten		Wir betrachten das Bild.
+1072	daher		Daher komme ich zu spät.
+1073	schwimmen		Ich schwimme im See.
+1074	Ecke	die	Die Bäckerei ist um die Ecke.
+1075	liefern		Wir liefern morgen.
+1076	fett		Das Essen ist zu fett.
+1077	amerikanisch		Er ist Amerikaner.
+1078	Operation	die	Die Operation war erfolgreich.
+1079	mitten		Wir wohnen mitten in der Stadt.
+1080	Feind	der	Er ist nicht dein Feind.
+1081	einverstanden		Bist du einverstanden?
+1082	Taxi	das	Wir nehmen ein Taxi.
+1083	scharf		Das Essen ist scharf.
+1084	schweigen		Er schweigt.
+1085	Energie	die	Ich habe keine Energie.
+1086	berühren		Bitte nicht berühren!
+1087	klären		Das müssen wir klären.
+1088	malen		Das Kind malt ein Bild.
+1089	überlassen		Ich überlasse es dir.
+1090	gesamt		Die gesamte Familie ist da.
+1091	entlang		Gehen Sie die Straße entlang.
+1092	umgehen		Er kann gut mit Kindern umgehen.
+1093	Brücke	die	Die Brücke ist alt.
+1094	Club	der	Wir gehen in einen Club.
+1095	Gelegenheit	die	Das ist eine gute Gelegenheit.
+1096	aha		Aha, jetzt verstehe ich.
+1097	gelingen		Der Kuchen ist gut gelungen.
+1098	benehmen		Benimm dich!
+1099	unterstützen		Ich unterstütze dich.
+1100	englisch		Sprichst du Englisch?
+1101	Grad	der	Es sind zwanzig Grad.
+1102	Fleisch	das	Ich esse kein Fleisch.
+1103	fair		Das ist nicht fair.
+1104	besonderer		Heute ist ein besonderer Tag.
+1105	Engel	der	Du bist ein Engel!
+1106	komplett		Ich habe es komplett vergessen.
+1107	angehen		Das geht dich nichts an.
+1108	Lösung	die	Wir finden eine Lösung.
+1109	worum		Worum geht es?
+1110	fein		Das ist fein.
+1111	sowas		Sowas habe ich noch nie gesehen.
+1112	schlau		Das ist schlau.
+1113	Oma	die	Meine Oma ist achtzig.
+1114	wahnsinnig		Das ist wahnsinnig schön.
+1115	Thema	das	Was ist das Thema?
+1116	langweilig		Der Film ist langweilig.
+1117	einsam		Er fühlt sich einsam.
+1118	tausend		Das kostet tausend Euro.
+1119	verhindern		Wir müssen das verhindern.
+1120	Bus	der	Der Bus kommt gleich.
+1121	merkwürdig		Das ist merkwürdig.
+1122	Pause	die	Machen wir eine Pause!
+1123	beantworten		Kannst du die Frage beantworten?
+1124	Loch	das	Meine Socke hat ein Loch.
+1125	Restaurant	das	Das Restaurant ist voll.
+1126	knien		Er kniet auf dem Boden.
+1127	blind		Der Mann ist blind.
+1128	beibringen		Kannst du mir das beibringen?
+1129	überzeugen		Du hast mich überzeugt.
+1130	zulassen		Das lasse ich nicht zu.
+1131	französisch		Ich spreche Französisch.
+1132	wiederholen		Können Sie das bitte wiederholen?
+1133	studieren		Ich studiere Biologie.
+1134	offenbar		Er ist offenbar krank.
+1135	ertragen		Ich kann die Hitze nicht ertragen.
+1136	unterrichten		Sie unterrichtet Deutsch.
+1137	au		Au, das tut weh!
+1138	gewöhnen		Ich gewöhne mich an das Wetter.
+1139	freundlich		Die Leute sind freundlich.
+1140	Zeitpunkt	der	Das ist kein guter Zeitpunkt.
+1141	heilen		Die Wunde heilt.
+1142	Nachbar	der	Mein Nachbar ist nett.
+1143	Keller	der	Das Fahrrad steht im Keller.
+1144	Haufen	der	Ich habe einen Haufen Arbeit.
+1145	aufregen		Reg dich nicht auf!
+1146	Lehrer	der	Der Lehrer erklärt die Grammatik.
+1147	Termin	der	Ich habe einen Termin beim Arzt.
+1148	Verantwortung	die	Ich übernehme die Verantwortung.
+1149	brav		Der Hund ist brav.
+1150	Großvater	der	Mein Großvater erzählt Geschichten.
+1151	Flug	der	Der Flug dauert zwei Stunden.
+1152	informieren		Ich informiere mich im Internet.
+1153	mächtig		Der Fluss ist mächtig.
+1154	Hut	der	Er trägt einen Hut.
+1155	berühmt		Sie ist berühmt.
+1156	dankbar		Ich bin dir dankbar.
+1157	hinaus		Er geht hinaus.
+1158	Wahnsinn	der	Das ist Wahnsinn!
+1159	sammeln		Ich sammle Briefmarken.
+1160	Gast	der	Wir haben Gäste.
+1161	vorhin		Ich habe vorhin angerufen.
+1162	stoßen		Ich habe mich am Tisch gestoßen.
+1163	anhalten		Bitte halten Sie hier an.
+1164	verwandeln		Die Raupe verwandelt sich in einen Schmetterling.
+1165	Fluss	der	Der Fluss ist breit.
+1166	Mut	der	Du hast Mut!
+1167	sparen		Ich spare für ein Auto.
+1168	mies		Das Wetter ist mies.
+1169	Reihe	die	Du bist an der Reihe.
+1170	Form	die	Das hat eine schöne Form.
+1171	atmen		Atme tief ein!
+1172	reagieren		Wie hat er reagiert?
+1173	Video	das	Schau dir das Video an!
+1174	Szene	die	Die Szene ist lustig.
+1175	begegnen		Ich bin ihm im Park begegnet.
+1176	kehren		Sie kehrt den Boden.
+1177	vermuten		Ich vermute, er hat recht.
+1178	offiziell		Das ist offiziell.
+1179	Kurs	der	Ich mache einen Deutschkurs.
+1180	nee		Nee, keine Lust.
+1181	Rose	die	Die Rose ist rot.
+1182	Einheit	die	Wir lernen Einheit fünf.
+1183	streichen		Wir streichen die Wand weiß.
+1184	betreffen		Das betrifft uns alle.
+1185	wecken		Weck mich um sieben!
+1186	dorthin		Wie komme ich dorthin?
+1187	pfeifen		Er pfeift ein Lied.
+1188	kompliziert		Das ist kompliziert.
+1189	Urlaub	der	Wir fahren in den Urlaub.
+1190	vorwärts		Wir gehen vorwärts.
+1191	Baum	der	Der Baum ist hoch.
+1192	vollkommen		Das ist vollkommen richtig.
+1193	anscheinend		Er ist anscheinend nicht da.
+1194	abschließen		Schließ die Tür ab!
+1195	verteidigen		Sie verteidigt ihre Meinung.
+1196	aufmachen		Mach bitte auf!
+1197	Nachmittag	der	Am Nachmittag habe ich frei.
+1198	selten		Ich esse selten Fleisch.
+1199	daraus		Was machen wir daraus?
+1200	tauchen		Wir tauchen im Meer.
+1201	Labor	das	Sie arbeitet im Labor.
+1202	Rechnung	die	Die Rechnung, bitte!
+1203	rausfinden		Ich will das rausfinden.
+1204	nackt		Das Baby ist nackt.
+1205	Zufall	der	Was für ein Zufall!
+1206	prima		Prima, das passt!
+1207	Mami	die	Mami, komm mal!
+1208	Gewalt	die	Gewalt ist keine Lösung.
+1209	Amerikaner	der	Er ist Amerikaner.
+1210	Krankheit	die	Die Krankheit ist nicht schlimm.
+1211	eng		Die Hose ist zu eng.
+1212	Streit	der	Sie haben Streit.
+1213	steuern		Wer steuert das Boot?
+1214	Meile	die	Das ist eine Meile von hier.
+1215	Runde	die	Wir laufen eine Runde.
+1216	gestehen		Ich muss dir etwas gestehen.
+1217	Sommer	der	Im Sommer ist es heiß.
+1218	Einsatz	der	Danke für deinen Einsatz.
+1219	weitermachen		Wir machen morgen weiter.
+1220	verwirren		Das verwirrt mich.
+1221	Tatsache	die	Das ist eine Tatsache.
+1222	gebrauchen		Das kann ich gut gebrauchen.
+1223	vertraut		Das kommt mir vertraut vor.
+1224	Absicht	die	Das war keine Absicht.
+1225	jener		Jene Zeit war schön.
+1226	anstellen		Was hast du angestellt?
+1227	wenden		Bitte wenden!
+1228	Mitglied	das	Ich bin Mitglied im Verein.
+1229	rühren		Rühr die Suppe um!
+1230	privat		Das ist privat.
+1231	festhalten		Halt dich fest!
+1232	schämen		Ich schäme mich.
+1233	erfinden		Wer hat das Telefon erfunden?
+1234	Natur	die	Ich liebe die Natur.
+1235	Kiste	die	Die Kiste ist voll.
+1236	räumen		Ich räume mein Zimmer auf.
+1237	Anzug	der	Er trägt einen Anzug.
+1238	Bürgermeister	der	Der Bürgermeister hält eine Rede.
+1239	Erklärung	die	Danke für die Erklärung.
+1240	längst		Das weiß ich längst.
+1241	drüber		Wir reden später drüber.
+1242	loswerden		Ich will die alten Möbel loswerden.
+1243	lebendig		Die Stadt ist lebendig.
+1244	normalerweise		Normalerweise stehe ich um sieben auf.
+1245	rauf		Komm rauf!
+1246	besiegen		Wir haben sie besiegt.
+1247	Stuhl	der	Setz dich auf den Stuhl.
+1248	Koffer	der	Mein Koffer ist schwer.
+1249	Zahn	der	Mein Zahn tut weh.
+1250	schieben		Schieb den Tisch an die Wand.
+1251	vergehen		Die Zeit vergeht schnell.
+1252	peinlich		Das ist mir peinlich.
+1253	morgens		Morgens trinke ich Tee.
+1254	Direktor	der	Der Direktor ist im Büro.
+1255	versagen		Die Bremsen haben versagt.
+1256	stürzen		Sie ist vom Fahrrad gestürzt.
+1257	Song	der	Der Song ist neu.
+1258	Vogel	der	Der Vogel singt.
+1259	mindestens		Das dauert mindestens eine Stunde.
+1260	angeln		Wir gehen angeln.
+1261	Probe	die	Die Band hat heute Probe.
+1262	gemein		Das ist gemein!
+1263	entlassen		Er wurde entlassen.
+1264	Mond	der	Der Mond ist hell.
+1265	Fähigkeit	die	Sie hat viele Fähigkeiten.
+1266	Kuchen	der	Der Kuchen ist lecker.
+1267	zugeben		Gib es zu!
+1268	Wunsch	der	Hast du einen Wunsch?
+1269	spannend		Das Buch ist spannend.
+1270	übersetzen		Kannst du das übersetzen?
+1271	seitdem		Seitdem wohne ich hier.
+1272	einstellen		Die Firma stellt neue Leute ein.
+1273	hässlich		Das Haus ist hässlich.
+1274	Programm	das	Was läuft heute im Programm?
+1275	verurteilen		Er wurde verurteilt.
+1276	Radio	das	Ich höre Radio.
+1277	leihen		Kannst du mir dein Fahrrad leihen?
+1278	riskieren		Das riskiere ich nicht.
+1279	überzeugt		Ich bin davon überzeugt.
+1280	Jahrhundert	das	Die Kirche ist aus dem 12. Jahrhundert.
+1281	Toilette	die	Wo ist die Toilette?
+1282	durchmachen		Sie hat viel durchgemacht.
+1283	Karriere	die	Er macht Karriere.
+1284	üben		Ich übe jeden Tag.
+1285	bewahren		Bewahren Sie Ruhe!
+1286	Projekt	das	Das Projekt ist fertig.
+1287	Dieb	der	Der Dieb ist weg.
+1288	womit		Womit fährst du?
+1289	Großmutter	die	Meine Großmutter backt gern.
+1290	kapieren		Kapiert?
+1291	prüfen		Ich prüfe die Rechnung.
+1292	nachher		Bis nachher!
+1293	Zelle	die	Der Körper hat viele Zellen.
+1294	telefonieren		Ich telefoniere mit meiner Mutter.
+1295	irgendjemand		Hat irgendjemand meinen Schlüssel gesehen?
+1296	Zigarette	die	Er raucht eine Zigarette.
+1297	vergleichen		Wir vergleichen die Preise.
+1298	Rache	die	Er will Rache.
+1299	Frankreich		Wir fahren nach Frankreich.
+1300	duschen		Ich dusche morgens.
+1301	empfinden		Wie empfindest du das?
+1302	schlucken		Ich kann nicht schlucken.
+1303	übergeben		Er übergibt mir den Schlüssel.
+1304	woran		Woran denkst du?
+1305	ausziehen		Zieh die Schuhe aus!
+1306	durcheinander		Alles ist durcheinander.
+1307	senden		Ich sende dir die Datei.
+1308	Detail	das	Erzähl mir die Details!
+1309	Opa	der	Mein Opa ist sehr lustig.
+1310	dadurch		Dadurch habe ich viel gelernt.
+1311	Signal	das	Ich habe kein Signal.
+1312	verursachen		Der Regen verursacht Staus.
+1313	vorhaben		Was hast du heute vor?
+1314	Untersuchung	die	Die Untersuchung dauert nicht lange.
+1315	Kuh	die	Die Kuh gibt Milch.
+1316	vernünftig		Sei vernünftig!
+1317	lehren		Sie lehrt an der Uni.
+1318	Zweifel	der	Ohne Zweifel!
+1319	schalten		Schalte das Licht aus.
+1320	Schild	das	Lies das Schild!
+1321	zusehen		Ich sehe dir beim Kochen zu.
+1322	brauen		Hier wird Bier gebraut.
+1323	Cousin	der	Mein Cousin wohnt in Wien.
+1324	bravo		Bravo!
+1325	Sprache	die	Deutsch ist eine schöne Sprache.
+1326	bellen		Der Hund bellt laut.
+1327	zweimal		Ich war zweimal in Berlin.
+1328	Schutz	der	Wir suchen Schutz vor dem Regen.
+1329	matt		Ich fühle mich matt.
+1330	bestrafen		Er wird nicht bestraft.
+1331	durchsuchen		Ich durchsuche meine Tasche.
+1332	Vorstellung	die	Die Vorstellung beginnt um acht.
+1333	mieten		Wir mieten ein Auto.
+1334	einsetzen		Setz das Wort ein.
+1335	ausgeben		Ich gebe zu viel Geld aus.
+1336	treu		Der Hund ist treu.
+1337	beschließen		Wir beschließen zu bleiben.
+1338	öffentlich		Das ist ein öffentlicher Park.
+1339	einzeln		Bitte einzeln eintreten.
+1340	Geräusch	das	Was ist das für ein Geräusch?
+1341	Pflicht	die	Das ist deine Pflicht.
+1342	neulich		Neulich war ich im Zoo.
+1343	Kunst	die	Ich mag moderne Kunst.
+1344	erfolgreich		Sie ist sehr erfolgreich.
+1345	Medikament	das	Nimm dein Medikament!
+1346	mühen		Er müht sich sehr.
+1347	zielen		Er zielt auf das Tor.
+1348	weshalb		Weshalb fragst du?
+1349	Ergebnis	das	Das Ergebnis ist gut.
+1350	dritter		Das ist mein dritter Kaffee.
+1351	Kapitän	der	Der Kapitän steuert das Schiff.
+1352	auftreten		Die Band tritt heute auf.
+1353	woanders		Lass uns woanders hingehen.
+1354	Kuss	der	Gib mir einen Kuss!
+1355	Schüler	der	Der Schüler macht Hausaufgaben.
+1356	eifersüchtig		Bist du eifersüchtig?
+1357	ignorieren		Ignorier ihn einfach.
+1358	urteilen		Urteile nicht so schnell.
+1359	doppelt		Das kostet doppelt so viel.
+1360	außerhalb		Wir wohnen außerhalb der Stadt.
+1361	selbstverständlich		Selbstverständlich helfe ich dir.
+1362	locker		Bleib locker!
+1363	romantisch		Das Abendessen war romantisch.
+1364	Milch	die	Ich trinke Kaffee mit Milch.
+1365	russisch		Sie spricht Russisch.
+1366	gebraucht		Ich kaufe ein gebrauchtes Auto.
+1367	berufen		Er beruft sich auf das Gesetz.
+1368	Land	das	Deutschland ist ein schönes Land.
+1369	Botschaft	die	Ich gehe zur Botschaft.
+1370	hinein		Geh hinein!
+1371	knapp		Die Zeit ist knapp.
+1372	füllen		Füll das Glas!
+1373	begraben		Der Hund begräbt den Knochen.
+1374	Pfund	das	Ein Pfund Tomaten, bitte.
+1375	ablehnen		Ich lehne das Angebot ab.
+1376	heulen		Der Wind heult.
+1377	Flughafen	der	Wir fahren zum Flughafen.
+1378	ungewöhnlich		Das ist ungewöhnlich.
+1379	Ratte	die	Im Keller ist eine Ratte.
+1380	Aufmerksamkeit	die	Danke für Ihre Aufmerksamkeit.
+1381	versichern		Ich versichere es dir.
+1382	umsonst		Der Eintritt ist umsonst.
+1383	trainieren		Ich trainiere dreimal pro Woche.
+1384	Offizier	der	Der Offizier gibt Befehle.
+1385	Übersetzung	die	Die Übersetzung ist gut.
+1386	aufregend		Die Reise war aufregend.
+1387	drohen		Es droht Regen.
+1388	nirgendwo		Ich finde ihn nirgendwo.
+1389	Vorschlag	der	Hast du einen Vorschlag?
+1390	streng		Der Lehrer ist streng.
+1391	Gnade	die	Gnade!
+1392	dicht		Der Nebel ist dicht.
+1393	Schande	die	Das ist eine Schande.
+1394	satt		Ich bin satt.
+1395	Blödsinn	der	Das ist Blödsinn.
+1396	weggehen		Geh nicht weg!
+1397	gewöhnlich		Gewöhnlich esse ich um zwölf.
+1398	anlügen		Lüg mich nicht an!
+1399	weglaufen		Der Hund ist weggelaufen.
+1400	desto		Je früher, desto besser.
+1401	Schatten	der	Wir sitzen im Schatten.
+1402	tauschen		Wollen wir tauschen?
+1403	ausmachen		Mach das Licht aus!
+1404	Riese	der	Er ist ein Riese.
+1405	übertreiben		Du übertreibst!
+1406	fordern		Sie fordern mehr Geld.
+1407	hell		Das Zimmer ist hell.
+1408	stinken		Der Müll stinkt.
+1409	schmutzig		Meine Schuhe sind schmutzig.
+1410	Truppe	die	Die Truppe ist müde.
+1411	Freitag	der	Am Freitag gehen wir aus.
+1412	Fahrer	der	Der Fahrer ist freundlich.
+1413	Talent	das	Sie hat Talent.
+1414	enttäuscht		Ich bin enttäuscht.
+1415	Theater	das	Wir gehen ins Theater.
+1416	Dreck	der	Die Kinder spielen im Dreck.
+1417	Schulter	die	Meine Schulter tut weh.
+1418	Knochen	der	Der Hund hat einen Knochen.
+1419	Prozess	der	Der Prozess dauert lange.
+1420	ebenso		Ich denke ebenso.
+1421	deutlich		Bitte sprich deutlich.
+1422	Motor	der	Der Motor ist laut.
+1423	amüsieren		Wir amüsieren uns gut.
+1424	dennoch		Es ist kalt, dennoch gehen wir.
+1425	entfernen		Bitte entfernen Sie das Etikett.
+1426	anschauen		Schau dir das an!
+1427	blasen		Der Wind bläst.
+1428	trotz		Trotz des Regens gehen wir spazieren.
+1429	stärken		Sport stärkt den Körper.
+1430	Bauer	der	Der Bauer hat viele Kühe.
+1431	verbergen		Was verbirgst du?
+1432	aufbauen		Wir bauen das Zelt auf.
+1433	scheiden		Sie lassen sich scheiden.
+1434	dreckig		Die Küche ist dreckig.
+1435	Hof	der	Die Kinder spielen im Hof.
+1436	bewusst		Das war mir nicht bewusst.
+1437	beschreiben		Beschreib mir den Weg.
+1438	Größe	die	Welche Größe haben Sie?
+1439	anzeigen		Die Uhr zeigt die Zeit an.
+1440	abnehmen		Ich möchte abnehmen.
+1441	verabschieden		Wir verabschieden uns.
+1442	üblich		Das ist hier üblich.
+1443	schmeißen		Schmeiß das weg!
+1444	Theorie	die	In der Theorie klingt das gut.
+1445	abgeben		Bitte geben Sie den Test ab.
+1446	erheben		Sie erhebt die Stimme.
+1447	Sünde	die	Das ist eine Sünde.
+1448	reif		Die Banane ist reif.
+1449	sperren		Die Straße ist gesperrt.
+1450	anfassen		Nicht anfassen!
+1451	Panik	die	Keine Panik!
+1452	voraus		Geh schon voraus!
+1453	rausholen		Hol das Brot aus dem Ofen raus.
+1454	Kino	das	Wir gehen ins Kino.
+1455	einander		Sie helfen einander.
+1456	freiwillig		Er hilft freiwillig.
+1457	Strafe	die	Die Strafe ist hoch.
+1458	weiterhin		Ich wohne weiterhin hier.
+1459	Feld	das	Auf dem Feld wächst Weizen.
+1460	lecker		Die Suppe ist lecker.
+1461	gering		Das Risiko ist gering.
+1462	angenehm		Angenehm!
+1463	Artikel	der	Ich lese einen Artikel.
+1464	lohnen		Das lohnt sich.
+1465	fröhlich		Sie ist immer fröhlich.
+1466	Alkohol	der	Ich trinke keinen Alkohol.
+1467	auszeichnen		Der Film wurde ausgezeichnet.
+1468	billig		Das T-Shirt ist billig.
+1469	schlachten		Der Bauer schlachtet ein Schwein.
+1470	respektieren		Ich respektiere deine Meinung.
+1471	täuschen		Da täuschst du dich.
+1472	praktisch		Die Tasche ist praktisch.
+1473	anhören		Hör dir das an!
+1474	zwölf		Es ist zwölf Uhr.
+1475	löschen		Lösch die Nachricht!
+1476	Hemd	das	Das Hemd ist weiß.
+1477	benötigen		Ich benötige Hilfe.
+1478	knallen		Die Tür knallt.
+1479	Magie	die	Das ist wie Magie.
+1480	Priester	der	Der Priester spricht in der Kirche.
+1481	aussuchen		Such dir etwas aus!
+1482	rechnen		Ich rechne mit dir.
+1483	Gegenteil	das	Das Gegenteil von groß ist klein.
+1484	Angelegenheit	die	Das ist meine Angelegenheit.
+1485	sichern		Sichere die Datei!
+1486	illegal		Das ist illegal.
+1487	Sonntag	der	Am Sonntag schlafe ich lange.
+1488	immerhin		Immerhin hat es nicht geregnet.
+1489	innerhalb		Innerhalb einer Woche ist es fertig.
+1490	golden		Der Ring ist golden.
+1491	Verlust	der	Das ist ein großer Verlust.
+1492	Affe	der	Der Affe isst eine Banane.
+1493	Zugang	der	Ich habe keinen Zugang zum Internet.
+1494	zuletzt		Wann hast du ihn zuletzt gesehen?
+1495	Weg	der	Kennst du den Weg?
+1496	Sack	der	Ein Sack Kartoffeln, bitte.
+1497	auffallen		Das fällt mir auf.
+1498	Prozent	das	Zehn Prozent Rabatt!
+1499	Trick	der	Das ist ein guter Trick.
+1500	Gerücht	das	Das ist nur ein Gerücht.
+1501	Freundschaft	die	Unsere Freundschaft ist mir wichtig.
+1502	mutig		Sie ist sehr mutig.
+1503	kündigen		Er kündigt seinen Job.
+1504	garantieren		Das garantiere ich dir.
+1505	Unterstützung	die	Danke für die Unterstützung.
+1506	möglicherweise		Möglicherweise regnet es.
+1507	medizinisch		Er braucht medizinische Hilfe.
+1508	definitiv		Das ist definitiv besser.
+1509	abends		Abends lese ich.
+1510	bedenken		Bedenke die Folgen!
+1511	rund		Der Tisch ist rund.
+1512	Treppe	die	Die Treppe ist steil.
+1513	Schönheit	die	Die Schönheit der Natur.
+1514	ebenfalls		Schönen Tag! – Danke, ebenfalls!
+1515	jederzeit		Du kannst jederzeit anrufen.
+1516	nähern		Wir nähern uns dem Ziel.
+1517	anständig		Benimm dich anständig.
+1518	präsentieren		Sie präsentiert ihr Projekt.
+1519	Station	die	Wir steigen an der nächsten Station aus.
+1520	gratulieren		Ich gratuliere dir!
+1521	Bühne	die	Die Band steht auf der Bühne.
+1522	vorn		Ich sitze vorn.
+1523	Universum	das	
+1524	Erlaubnis	die	
+1525	Jacke	die	
+1526	Lügner	der	
+1527	Beerdigung	die	
+1528	bereuen		
+1529	stressen		
+1530	innerer		
+1531	Notfall	der	
+1532	real		
+1533	unterbrechen		
+1534	inzwischen		
+1535	reizen		
+1536	Geduld	die	
+1537	kriminell		
+1538	unheimlich		
+1539	Gerechtigkeit	die	
+1540	eingehen		
+1541	Ton	der	
+1542	Medizin	die	
+1543	Alarm	der	
+1544	Schauspieler	der	
+1545	Samstag	der	
+1546	Fan	der	
+1547	Chaos	das	
+1548	begrüßen		
+1549	beinahe		
+1550	Norden	der	
+1551	Bauch	der	
+1552	hungrig		
+1553	Leitung	die	
+1554	betreten		
+1555	Brot	das	
+1556	gegenseitig		
+1557	bedrohen		
+1558	extra		
+1559	Eindruck	der	
+1560	befürchten		
+1561	angeblich		
+1562	wegnehmen		
+1563	Anweisung	die	
+1564	eindeutig		
+1565	waschen		
+1566	Zunge	die	
+1567	Genie	das	
+1568	Montag	der	
+1569	Explosion	die	
+1570	Schlafzimmer	das	
+1571	Geburt	die	
+1572	verteilen		
+1573	negativ		
+1574	explodieren		
+1575	taub		
+1576	Kette	die	
+1577	putzen		
+1578	Feigling	der	
+1579	jedoch		
+1580	politisch		
+1581	prost		
+1582	vorbeikommen		
+1583	Unrecht	das	
+1584	aktivieren		
+1585	einschlafen		
+1586	verschwenden		
+1587	Brust	die	
+1588	Funke	der	
+1589	Täter	der	
+1590	Scheck	der	
+1591	positiv		
+1592	aufwachsen		
+1593	mitmachen		
+1594	Kilometer	der	
+1595	Anführer	der	
+1596	loslassen		
+1597	Gift	das	
+1598	ausdrücken		
+1599	Zweck	der	
+1600	erstaunlich		
+1601	erhöhen		
+1602	wertvoll		
+1603	durchführen		
+1604	Bedingung	die	
+1605	Einladung	die	
+1606	Müll	der	
+1607	Pille	die	
+1608	Null	die	
+1609	Cent	der	
+1610	Mitte	die	
+1611	bedauern		
+1612	flüstern		
+1613	Gras	das	
+1614	chinesisch		
+1615	Mittagessen	das	
+1616	neugierig		
+1617	Maske	die	
+1618	Minister	der	
+1619	Wolf	der	
+1620	tapfer		
+1621	Abteilung	die	
+1622	Mauer	die	
+1623	überwachen		
+1624	täglich		
+1625	Krebs	der	
+1626	Spiegel	der	
+1627	beißen		
+1628	tödlich		
+1629	Wetter	das	
+1630	Hütte	die	
+1631	eröffnen		
+1632	ersetzen		
+1633	Vorteil	der	
+1634	aussteigen		
+1635	platt		
+1636	anstatt		
+1637	extrem		
+1638	weitergehen		
+1639	Champagner	der	
+1640	Huhn	das	
+1641	Spitze	die	
+1642	Pizza	die	
+1643	Kleidung	die	
+1644	Mantel	der	
+1645	Vermögen	das	
+1646	Bedeutung	die	
+1647	unglücklich		
+1648	Stoff	der	
+1649	einfallen		
+1650	erfreut		
+1651	zustimmen		
+1652	hinterher		
+1653	empfehlen		
+1654	Sendung	die	
+1655	Krieger	der	
+1656	Winter	der	
+1657	Kaiser	der	
+1658	dahinter		
+1659	spanisch		
+1660	tippen		
+1661	bewundern		
+1662	schief		
+1663	Publikum	das	
+1664	bestens		
+1665	speziell		
+1666	herrschen		
+1667	wonach		
+1668	Unterhaltung	die	
+1669	Geschmack	der	
+1670	nachsehen		
+1671	oberer		
+1672	Strom	der	
+1673	dämlich		
+1674	Quelle	die	
+1675	Zahl	die	
+1676	Dutzend	das	
+1677	typisch		
+1678	Virus	das	
+1679	Fernseher	der	
+1680	organisieren		
+1681	spazieren		
+1682	heutig		
+1683	Pilot	der	
+1684	unbekannt		
+1685	sanft		
+1686	zaubern		
+1687	Westen	der	
+1688	bekämpfen		
+1689	gelb		
+1690	dauernd		
+1691	weich		
+1692	Figur	die	
+1693	Pech	das	
+1694	wiederkommen		
+1695	abhalten		
+1696	betragen		
+1697	Europa		
+1698	Deutschland		
+1699	verlaufen		
+1700	Träne	die	
+1701	Sturm	der	
+1702	strecken		
+1703	Pflanze	die	
+1704	herstellen		
+1705	Ereignis	das	
+1706	entstehen		
+1707	Tasse	die	
+1708	gleichzeitig		
+1709	umziehen		
+1710	festnehmen		
+1711	Süden	der	
+1712	Kommando	das	
+1713	bedienen		
+1714	befragen		
+1715	Menschheit	die	
+1716	nass		
+1717	rechtzeitig		
+1718	Bereich	der	
+1719	vierter		
+1720	Wut	die	
+1721	mitteilen		
+1722	Schlange	die	
+1723	herrlich		
+1724	abschneiden		
+1725	Stil	der	
+1726	Schrank	der	
+1727	Lippe	die	
+1728	Anteil	der	
+1729	hinweisen		
+1730	vereinen		
+1731	Mittag	der	
+1732	anlegen		
+1733	modern		
+1734	Dunkelheit	die	
+1735	grausam		
+1736	reingehen		
+1737	Klinik	die	
+1738	Experiment	das	
+1739	verkehren		
+1740	mischen		
+1741	wie viel		
+1742	verschaffen		
+1743	verdächtig		
+1744	Linie	die	
+1745	Bart	der	
+1746	Mittel	das	
+1747	spannen		
+1748	genial		
+1749	verhandeln		
+1750	Roman	der	
+1751	fließen		
+1752	auseinander		
+1753	beschuldigen		
+1754	Künstler	der	
+1755	fähig		
+1756	dramatisch		
+1757	genügen		
+1758	eilig		
+1759	Text	der	
+1760	Störung	die	
+1761	Brille	die	
+1762	Kopie	die	
+1763	momentan		
+1764	Ewigkeit	die	
+1765	Puppe	die	
+1766	clever		
+1767	nützlich		
+1768	vorgehen		
+1769	ausruhen		
+1770	Verbrecher	der	
+1771	per		
+1772	abmachen		
+1773	ablenken		
+1774	trauern		
+1775	füttern		
+1776	Bürger	der	
+1777	Leiter	der	
+1778	Scheidung	die	
+1779	einnehmen		
+1780	aussprechen		
+1781	Führer	der	
+1782	umdrehen		
+1783	flehen		
+1784	erschrecken		
+1785	Mitternacht	die	
+1786	Klo	das	
+1787	ruinieren		
+1788	auslösen		
+1789	ergreifen		
+1790	eilen		
+1791	bescheuert		
+1792	spenden		
+1793	wehren		
+1794	messen		
+1795	beteiligen		
+1796	Reaktion	die	
+1797	korrekt		
+1798	verlegen		
+1799	Fleck	der	
+1800	trocken		
+1801	Löwe	der	
+1802	Hammer	der	
+1803	begeistert		
+1804	Internet	das	
+1805	verlieben		
+1806	Politik	die	
+1807	klagen		
+1808	zurecht		
+1809	vertreten		
+1810	kontaktieren		
+1811	absagen		
+1812	Bursche	der	
+1813	Krankenwagen	der	
+1814	Schnee	der	
+1815	zurücklassen		
+1816	Antrag	der	
+1817	Krone	die	
+1818	brüllen		
+1819	heftig		
+1820	ahnen		
+1821	beeindruckend		
+1822	weiblich		
+1823	blond		
+1824	Heimat	die	
+1825	husten		
+1826	zerbrechen		
+1827	Behandlung	die	
+1828	bequem		
+1829	Stimmung	die	
+1830	einkaufen		
+1831	China		
+1832	widerlich		
+1833	heutzutage		
+1834	Rakete	die	
+1835	jubeln		
+1836	braun		
+1837	Holz	das	
+1838	Höhle	die	
+1839	heil		
+1840	verzichten		
+1841	vermeiden		
+1842	Veränderung	die	
+1843	achter		
+1844	Methode	die	
+1845	durchs		
+1846	Konto	das	
+1847	Tunnel	der	
+1848	Ursache	die	
+1849	weigern		
+1850	beherrschen		
+1851	mitbringen		
+1852	beeindruckt		
+1853	aufgrund		
+1854	Realität	die	
+1855	meistens		
+1856	Besitzer	der	
+1857	Satz	der	
+1858	Abenteuer	das	
+1859	Schädel	der	
+1860	langweilen		
+1861	verzweifelt		
+1862	Käse	der	
+1863	knurren		
+1864	Identität	die	
+1865	ordentlich		
+1866	international		
+1867	stattdessen		
+1868	unangenehm		
+1869	regnen		
+1870	wehen		
+1871	großzügig		
+1872	grau		
+1873	hundert		
+1874	Mitarbeiter	der	
+1875	enttäuschen		
+1876	krachen		
+1877	Verletzung	die	
+1878	Seil	das	
+1879	April	der	
+1880	ärgern		
+1881	übers		
+1882	Prüfung	die	
+1883	bezweifeln		
+1884	Tour	die	
+1885	erben		
+1886	Generation	die	
+1887	Serie	die	
+1888	verlobt		
+1889	einziehen		
+1890	zurückgeben		
+1891	Farm	die	
+1892	Gegner	der	
+1893	losgehen		
+1894	äußerst		
+1895	Uniform	die	
+1896	männlich		
+1897	Gesundheit	die	
+1898	achten		
+1899	Verabredung	die	
+1900	Albtraum	der	
+1901	Magen	der	
+1902	aufheben		
+1903	drängen		
+1904	spucken		
+1905	Schreibtisch	der	
+1906	attraktiv		
+1907	emotional		
+1908	national		
+1909	Test	der	
+1910	zentral		
+1911	albern		
+1912	notwendig		
+1913	Jagd	die	
+1914	Fabrik	die	
+1915	Fantasie	die	
+1916	zurückbringen		
+1917	Wissenschaft	die	
+1918	sicherlich		
+1919	Öffentlichkeit	die	
+1920	Welle	die	
+1921	zeichnen		
+1922	Keks	der	
+1923	gefährden		
+1924	lehnen		
+1925	belästigen		
+1926	ciao		
+1927	platzen		
+1928	friedlich		
+1929	Lektion	die	
+1930	dünn		
+1931	Bedrohung	die	
+1932	Student	der	
+1933	magisch		
+1934	verschieben		
+1935	Zucker	der	
+1936	vorschlagen		
+1937	Training	das	
+1938	Ritter	der	
+1939	Dienst	der	
+1940	operieren		
+1941	Wissenschaftler	der	
+1942	durchgehen		
+1943	Hinweis	der	
+1944	gestatten		
+1945	Verteidigung	die	
+1946	verbreiten		
+1947	versorgen		
+1948	einst		
+1949	Maus	die	
+1950	irgendwer		
+1951	sinnlos		
+1952	Applaus	der	
+1953	verabreden		
+1954	stattfinden		
+1955	beschweren		
+1956	intelligent		
+1957	ehemalig		
+1958	Osten	der	
+1959	elf		
+1960	Jäger	der	
+1961	Sand	der	
+1962	brutal		
+1963	ausführen		
+1964	manipulieren		
+1965	Nation	die	
+1966	rausgehen		
+1967	nützen		
+1968	Dokument	das	
+1969	Leidenschaft	die	
+1970	Suppe	die	
+1971	meinetwegen		
+1972	schleichen		
+1973	Spieler	der	
+1974	stets		
+1975	Viertel	das	
+1976	pünktlich		
+1977	Afrika		
+1978	Basis	die	
+1979	Flamme	die	
+1980	ticken		
+1981	Hafen	der	
+1982	Titel	der	
+1983	diskutieren		
+1984	flott		
+1985	einsteigen		
+1986	erholen		
+1987	winzig		
+1988	checken		
+1989	italienisch		
+1990	daneben		
+1991	Tiger	der	
+1992	Unglück	das	
+1993	Milliarde	die	
+1994	zusammenarbeiten		
+1995	verloben		
+1996	Dienstag	der	
+1997	heimlich		
+1998	feststellen		
+1999	Studio	das	
+2000	erneut		
+2001	köstlich		
+2002	ausschließen		
+2003	Geruch	der	
+2004	rosa		
+2005	Höhe	die	
+2006	Profi	der	
+2007	Gedächtnis	das	
+2008	Technik	die	
+2009	königlich		
+2010	ersparen		
+2011	Wirklichkeit	die	
+2012	Verkauf	der	
+2013	sinken		
+2014	Käfig	der	
+2015	original		
+2016	lenken		
+2017	Sandwich	das	
+2018	quälen		
+2019	eintreten		
+2020	Kilo	das	
+2021	Behörde	die	
+2022	außergewöhnlich		
+2023	Ehefrau	die	
+2024	bedanken		
+2025	Fieber	das	
+2026	Lehrerin	die	
+2027	Donnerstag	der	
+2028	Kühlschrank	der	
+2029	Neffe	der	
+2030	Ausweis	der	
+2031	Sport	der	
+2032	nebenan		
+2033	Arbeiter	der	
+2034	Kostüm	das	
+2035	verbessern		
+2036	abziehen		
+2037	bemühen		
+2038	Staub	der	
+2039	Fahrzeug	das	
+2040	Mitleid	das	
+2041	übersehen		
+2042	Korrektur	die	
+2043	britisch		
+2044	Übung	die	
+2045	Militär	das	
+2046	ermitteln		
+2047	voran		
+2048	pflegen		
+2049	Organisation	die	
+2050	servieren		
+2051	Experte	der	
+2052	zweifeln		
+2053	beeinflussen		
+2054	verdanken		
+2055	Versicherung	die	
+2056	technisch		
+2057	Gedicht	das	
+2058	Widerstand	der	
+2059	anschließen		
+2060	verderben		
+2061	engagieren		
+2062	plus		
+2063	kürzlich		
+2064	Konzert	das	
+2065	Rückkehr	die	
+2066	vollständig		
+2067	Warnung	die	
+2068	segeln		
+2069	Ausgang	der	
+2070	ausrechnen		
+2071	zurückziehen		
+2072	Kindheit	die	
+2073	Manager	der	
+2074	enthalten		
+2075	daheim		
+2076	Belohnung	die	
+2077	Stufe	die	
+2078	Palast	der	
+2079	ungern		
+2080	japanisch		
+2081	zurückgehen		
+2082	erstens		
+2083	Appetit	der	
+2084	Laune	die	
+2085	Fahrrad	das	
+2086	beliebt		
+2087	rasen		
+2088	bezeichnen		
+2089	Italien		
+2090	faul		
+2091	breit		
+2092	unsichtbar		
+2093	auflegen		
+2094	Rand	der	
+2095	Roboter	der	
+2096	zittern		
+2097	hinlegen		
+2098	auswählen		
+2099	Zelt	das	
+2100	Aufnahme	die	
+2101	Katastrophe	die	
+2102	hinsetzen		
+2103	Lieferung	die	
+2104	Schaf	das	
+2105	ausdenken		
+2106	Schokolade	die	
+2107	befreundet		
+2108	Blitz	der	
+2109	besetzen		
+2110	Garage	die	
+2111	geschäftlich		
+2112	Gepäck	das	
+2113	überstehen		
+2114	ersticken		
+2115	Haken	der	
+2116	erteilen		
+2117	fünfter		
+2118	Museum	das	
+2119	Hausaufgabe	die	
+2120	Uni	die	
+2121	veröffentlichen		
+2122	scheinbar		
+2123	wandern		
+2124	Jugend	die	
+2125	Benzin	das	
+2126	Flügel	der	
+2127	Symbol	das	
+2128	Teller	der	
+2129	Einstellung	die	
+2130	Revolution	die	
+2131	Bibel	die	
+2132	klettern		
+2133	Reporter	der	
+2134	Wolke	die	
+2135	aushalten		
+2136	Netz	das	
+2137	Kerze	die	
+2138	wegwerfen		
+2139	bevorzugen		
+2140	unwichtig		
+2141	gemütlich		
+2142	Universität	die	
+2143	innen		
+2144	Clown	der	
+2145	Tradition	die	
+2146	abbrechen		
+2147	tropfen		
+2148	gewaltig		
+2149	Hintergrund	der	
+2150	eintreffen		
+2151	Diamant	der	
+2152	übertragen		
+2153	Bär	der	
+2154	Euro	der	
+2155	campen		
+2156	Ware	die	
+2157	Paket	das	
+2158	bremsen		
+2159	Flur	der	
+2160	Material	das	
+2161	krass		
+2162	Autor	der	
+2163	aufräumen		
+2164	aufstellen		
+2165	Modell	das	
+2166	Werkzeug	das	
+2167	womöglich		
+2168	außen		
+2169	umkehren		
+2170	Cousine	die	
+2171	Phase	die	
+2172	Sitzung	die	
+2173	jammern		
+2174	Führung	die	
+2175	Note	die	
+2176	Besucher	der	
+2177	Apfel	der	
+2178	Hubschrauber	der	
+2179	Öl	das	
+2180	ausrichten		
+2181	Lärm	der	
+2182	Spanien		
+2183	Humor	der	
+2184	Aktion	die	
+2185	Motorrad	das	
+2186	anrichten		
+2187	ansprechen		
+2188	Aussicht	die	
+2189	Wäsche	die	
+2190	Glocke	die	
+2191	Prinzip	das	
+2192	Stiefel	der	
+2193	korrigieren		
+2194	Spruch	der	
+2195	Kultur	die	
+2196	Bibliothek	die	
+2197	beunruhigen		
+2198	Spielzeug	das	
+2199	höchstens		
+2200	darunter		
+2201	zögern		
+2202	abhängen		
+2203	Bahnhof	der	
+2204	ideal		
+2205	abschalten		
+2206	klemmen		
+2207	erstmal		
+2208	Objekt	das	
+2209	jahrelang		
+2210	Hügel	der	
+2211	gerecht		
+2212	körperlich		
+2213	Sekretärin	die	
+2214	Gewicht	das	
+2215	Lunge	die	
+2216	scheitern		
+2217	nutzlos		
+2218	Amt	das	
+2219	aktiv		
+2220	zunächst		
+2221	keinerlei		
+2222	abwarten		
+2223	Herausforderung	die	
+2224	umso		
+2225	Weihnachtsmann	der	
+2226	unhöflich		
+2227	Rezept	das	
+2228	Schicht	die	
+2229	Mai	der	
+2230	vorkommen		
+2231	fabelhaft		
+2232	wiegen		
+2233	Socke	die	
+2234	Narbe	die	
+2235	entgehen		
+2236	verschlossen		
+2237	Kompliment	das	
+2238	zukünftig		
+2239	kratzen		
+2240	Japan		
+2241	Kleinigkeit	die	
+2242	Tempel	der	
+2243	kleben		
+2244	abreisen		
+2245	lokal		
+2246	Tagebuch	das	
+2247	Vorschrift	die	
+2248	professionell		
+2249	loben		
+2250	endgültig		
+2251	Elefant	der	
+2252	Badezimmer	das	
+2253	Kehle	die	
+2254	dreimal		
+2255	zweitens		
+2256	Drache	der	
+2257	erschöpft		
+2258	Enkel	der	
+2259	feige		
+2260	Version	die	
+2261	Option	die	
+2262	düster		
+2263	Münze	die	
+2264	ablegen		
+2265	zurückrufen		
+2266	ertrinken		
+2267	Zwilling	der	
+2268	Schauspielerin	die	
+2269	Therapie	die	
+2270	eklig		
+2271	Russland		
+2272	Tal	das	
+2273	Zone	die	
+2274	versammeln		
+2275	klassisch		
+2276	Missverständnis	das	
+2277	Bewusstsein	das	
+2278	Asche	die	
+2279	hervorragend		
+2280	fälschen		
+2281	Teppich	der	
+2282	ablaufen		
+2283	null		
+2284	eins		
+2285	dreizehn		
+2286	vierzehn		
+2287	fünfzehn		
+2288	sechzehn		
+2289	siebzehn		
+2290	achtzehn		
+2291	neunzehn		
+2292	zwanzig		
+2293	dreißig		
+2294	vierzig		
+2295	fünfzig		
+2296	sechzig		
+2297	siebzig		
+2298	achtzig		
+2299	neunzig		
+2300	erster		
+2301	sechster		
+2302	siebter		
+2303	neunter		
+2304	zehnter		
+2305	Mittwoch	der	
+2306	Januar	der	
+2307	Februar	der	
+2308	März	der	
+2309	Juni	der	
+2310	Juli	der	
+2311	August	der	
+2312	September	der	
+2313	Oktober	der	
+2314	November	der	
+2315	Dezember	der	
+2316	Frühling	der	
+2317	Herbst	der	
+2318	Jahreszeit	die	
+2319	Datum	das	
+2320	Kalender	der	
+2321	Vormittag	der	
+2322	übermorgen		
+2323	vorgestern		
+2324	Viertelstunde	die	
+2325	Wecker	der	
+2326	Feierabend	der	
+2327	Feiertag	der	
+2328	Ferien	die	
+2329	orange		
+2330	lila		
+2331	türkis		
+2332	beige		
+2333	bunt		
+2334	hellblau		
+2335	dunkelblau		
+2336	Großeltern	die	
+2337	Enkelin	die	
+2338	Nichte	die	
+2339	Schwiegermutter	die	
+2340	Geschwister	die	
+2341	Ehe	die	
+2342	ledig		
+2343	geschieden		
+2344	Verwandte	der	
+2345	Kopfschmerzen	die	
+2346	Bauchschmerzen	die	
+2347	Arm	der	
+2348	Knie	das	
+2349	Rücken	der	
+2350	Zeh	der	
+2351	Haut	die	
+2352	Stirn	die	
+2353	Wange	die	
+2354	Kinn	das	
+2355	Ellbogen	der	
+2356	Handgelenk	das	
+2357	Fußgelenk	das	
+2358	Herzschlag	der	
+2359	Blut	das	
+2360	Erkältung	die	
+2361	Husten	der	
+2362	Schnupfen	der	
+2363	Grippe	die	
+2364	Apotheke	die	
+2365	Tablette	die	
+2366	Pflaster	das	
+2367	Allergie	die	
+2368	Rock	der	
+2369	Bluse	die	
+2370	Pullover	der	
+2371	T-Shirt	das	
+2372	Jeans	die	
+2373	Kleidungsstück	das	
+2374	Mütze	die	
+2375	Schal	der	
+2376	Handschuh	der	
+2377	Gürtel	der	
+2378	Krawatte	die	
+2379	Sakko	das	
+2380	Sneaker	der	
+2381	Sandale	die	
+2382	Badeanzug	der	
+2383	Unterwäsche	die	
+2384	Schlafanzug	der	
+2385	Regenjacke	die	
+2386	anprobieren		
+2387	Umkleidekabine	die	
+2388	Kasse	die	
+2389	Quittung	die	
+2390	Rabatt	der	
+2391	Brötchen	das	
+2392	Butter	die	
+2393	Marmelade	die	
+2394	Honig	der	
+2395	Müsli	das	
+2396	Joghurt	der	
+2397	Wurst	die	
+2398	Schinken	der	
+2399	Hähnchen	das	
+2400	Rindfleisch	das	
+2401	Schweinefleisch	das	
+2402	Lachs	der	
+2403	Reis	der	
+2404	Nudel	die	
+2405	Kartoffel	die	
+2406	Pommes	die	
+2407	Salat	der	
+2408	Gemüse	das	
+2409	Obst	das	
+2410	Tomate	die	
+2411	Gurke	die	
+2412	Zwiebel	die	
+2413	Knoblauch	der	
+2414	Karotte	die	
+2415	Paprika	die	
+2416	Pilz	der	
+2417	Banane	die	
+2418	Orange	die	
+2419	Zitrone	die	
+2420	Erdbeere	die	
+2421	Traube	die	
+2422	Birne	die	
+2423	Kirsche	die	
+2424	Nuss	die	
+2425	Salz	das	
+2426	Pfeffer	der	
+2427	Essig	der	
+2428	Sahne	die	
+2429	Quark	der	
+2430	Saft	der	
+2431	Wein	der	
+2432	Mineralwasser	das	
+2433	Limonade	die	
+2434	Kakao	der	
+2435	Frühstück	das	
+2436	Speisekarte	die	
+2437	Kellner	der	
+2438	Kellnerin	die	
+2439	Trinkgeld	das	
+2440	Vorspeise	die	
+2441	Hauptgericht	das	
+2442	Nachtisch	der	
+2443	Eis	das	
+2444	Bäckerei	die	
+2445	Metzgerei	die	
+2446	Supermarkt	der	
+2447	Markt	der	
+2448	Einkaufswagen	der	
+2449	Tüte	die	
+2450	vegetarisch		
+2451	vegan		
+2452	salzig		
+2453	bitter		
+2454	backen		
+2455	braten		
+2456	schälen		
+2457	umrühren		
+2458	würzen		
+2459	Herd	der	
+2460	Ofen	der	
+2461	Topf	der	
+2462	Pfanne	die	
+2463	Löffel	der	
+2464	Gabel	die	
+2465	Schüssel	die	
+2466	Zutat	die	
+2467	Mehl	das	
+2468	Teig	der	
+2469	Wohnzimmer	das	
+2470	Esszimmer	das	
+2471	Kinderzimmer	das	
+2472	Balkon	der	
+2473	Garten	der	
+2474	Fußboden	der	
+2475	Wand	die	
+2476	Decke	die	
+2477	Sofa	das	
+2478	Sessel	der	
+2479	Bett	das	
+2480	Kissen	das	
+2481	Lampe	die	
+2482	Regal	das	
+2483	Kommode	die	
+2484	Spüle	die	
+2485	Waschmaschine	die	
+2486	Spülmaschine	die	
+2487	Mikrowelle	die	
+2488	Dusche	die	
+2489	Badewanne	die	
+2490	Waschbecken	das	
+2491	Handtuch	das	
+2492	Miete	die	
+2493	Vermieter	der	
+2494	Nebenkosten	die	
+2495	Möbel	die	
+2496	Etage	die	
+2497	Aufzug	der	
+2498	Rathaus	das	
+2499	Post	die	
+2500	Polizeistation	die	
+2501	Feuerwehr	die	
+2502	Park	der	
+2503	Spielplatz	der	
+2504	Schwimmbad	das	
+2505	Fitnessstudio	das	
+2506	Kaufhaus	das	
+2507	Ampel	die	
+2508	Kreuzung	die	
+2509	Haltestelle	die	
+2510	U-Bahn	die	
+2511	S-Bahn	die	
+2512	Straßenbahn	die	
+2513	Fahrkarte	die	
+2514	Ticket	das	
+2515	Gleis	das	
+2516	Abfahrt	die	
+2517	Ankunft	die	
+2518	Verspätung	die	
+2519	umsteigen		
+2520	Stadtplan	der	
+2521	Sehenswürdigkeit	die	
+2522	Innenstadt	die	
+2523	Zentrum	das	
+2524	Reise	die	
+2525	Reisepass	der	
+2526	Visum	das	
+2527	Zoll	der	
+2528	Einzelzimmer	das	
+2529	Doppelzimmer	das	
+2530	Rezeption	die	
+2531	Schlüsselkarte	die	
+2532	Strand	der	
+2533	Urlaubsort	der	
+2534	Ausflug	der	
+2535	Tourist	der	
+2536	Unterkunft	die	
+2537	Jugendherberge	die	
+2538	Ferienwohnung	die	
+2539	Abflug	der	
+2540	Landung	die	
+2541	Bordkarte	die	
+2542	Sonnenschein	der	
+2543	bewölkt		
+2544	sonnig		
+2545	windig		
+2546	neblig		
+2547	regnerisch		
+2548	Gewitter	das	
+2549	Donner	der	
+2550	Temperatur	die	
+2551	Wettervorhersage	die	
+2552	Hitze	die	
+2553	Kälte	die	
+2554	frieren		
+2555	schwitzen		
+2556	Glatteis	das	
+2557	Hobby	das	
+2558	Freizeit	die	
+2559	joggen		
+2560	Fußball	der	
+2561	Tennis	das	
+2562	Basketball	der	
+2563	Yoga	das	
+2564	Gitarre	die	
+2565	Klavier	das	
+2566	fotografieren		
+2567	Spiel	das	
+2568	Brettspiel	das	
+2569	Ausstellung	die	
+2570	Verein	der	
+2571	Beruf	der	
+2572	Ärztin	die	
+2573	Krankenschwester	die	
+2574	Pfleger	der	
+2575	Ingenieur	der	
+2576	Ingenieurin	die	
+2577	Verkäufer	der	
+2578	Verkäuferin	die	
+2579	Koch	der	
+2580	Köchin	die	
+2581	Bäcker	der	
+2582	Friseur	der	
+2583	Friseurin	die	
+2584	Mechaniker	der	
+2585	Programmierer	der	
+2586	Journalist	der	
+2587	Architekt	der	
+2588	Polizistin	die	
+2589	Buchhalter	der	
+2590	Kassierer	der	
+2591	Studentin	die	
+2592	Rentner	der	
+2593	arbeitslos		
+2594	Gehalt	das	
+2595	Bewerbung	die	
+2596	Lebenslauf	der	
+2597	Vorstellungsgespräch	das	
+2598	Praktikum	das	
+2599	Ausbildung	die	
+2600	Kollegin	die	
+2601	Besprechung	die	
+2602	Unterricht	der	
+2603	Klasse	die	
+2604	Fach	das	
+2605	Mathematik	die	
+2606	Wörterbuch	das	
+2607	Heft	das	
+2608	Kuli	der	
+2609	Bleistift	der	
+2610	Tafel	die	
+2611	Zahnbürste	die	
+2612	Zahnpasta	die	
+2613	Seife	die	
+2614	Shampoo	das	
+2615	Kamm	der	
+2616	Bürste	die	
+2617	Creme	die	
+2618	Parfüm	das	
+2619	Schminke	die	
+2620	Rasierer	der	
+2621	rasieren		
+2622	kämmen		
+2623	schminken		
+2624	Friseursalon	der	
+2625	Haarschnitt	der	
+2626	Österreich		
+2627	Schweiz	die	
+2628	Niederlande	die	
+2629	Belgien		
+2630	Polen		
+2631	Tschechien		
+2632	Griechenland		
+2633	Türkei	die	
+2634	Portugal		
+2635	Großbritannien		
+2636	England		
+2637	Irland		
+2638	Schweden		
+2639	Norwegen		
+2640	Dänemark		
+2641	Kanada		
+2642	Mexiko		
+2643	Brasilien		
+2644	Indien		
+2645	Korea		
+2646	Australien		
+2647	Ägypten		
+2648	Deutsche	der	
+2649	Österreicher	der	
+2650	Schweizer	der	
+2651	Italiener	der	
+2652	Spanier	der	
+2653	Franzose	der	
+2654	Engländer	der	
+2655	Chinese	der	
+2656	Japaner	der	
+2657	Ausländer	der	
+2658	Nationalität	die	
+2659	Hauptstadt	die	
+2660	schlank		
+2661	lockig		
+2662	glatt		
+2663	kurzhaarig		
+2664	Brillenträger	der	
+2665	Sommersprosse	die	
+2666	gutaussehend		
+2667	Kneipe	die	
+2668	Café	das	
+2669	Disco	die	
+2670	Eintritt	der	
+2671	Eintrittskarte	die	
+2672	Getränk	das	
+2673	Cocktail	der	
+2674	Reservierung	die	
+2675	reservieren		
+2676	Couch	die	
+2677	Notiz	die	
+2678	Symptom	das	
+2679	Assistent	der	
+2680	sehnen		
+2681	erleichtern		
+2682	Passagier	der	
+2683	Ausdruck	der	
+2684	pleite		
+2685	beleidigt		
+2686	Knopf	der	
+2687	leuchten		
+2688	zusätzlich		
+2689	starren		
+2690	investieren		
+2691	edel		
+2692	Rad	das	
+2693	harmlos		
+2694	hilfreich		
+2695	quietschen		
+2696	schrecken		
+2697	Atem	der	
+2698	deuten		
+2699	Apartment	das	
+2700	Konsequenz	die	
+2701	Zauberer	der	
+2702	Kanal	der	
+2703	rutschen		
+2704	Umgebung	die	
+2705	Partei	die	
+2706	logisch		
+2707	Unterschrift	die	
+2708	Küste	die	
+2709	eigenartig		
+2710	gestalten		
+2711	Parkplatz	der	
+2712	einschließen		
+2713	beseitigen		
+2714	Leistung	die	
+2715	Kamerad	der	
+2716	ausprobieren		
+2717	Sprung	der	
+2718	Faust	die	
+2719	Ruhm	der	
+2720	häufig		
+2721	Verhältnis	das	
+2722	beschädigen		
+2723	schleppen		
+2724	höflich		
+2725	Witwe	die	
+2726	folgend		
+2727	Personal	das	
+2728	erweisen		
+2729	Wirkung	die	
+2730	tanken		
+2731	entschlossen		
+2732	stabil		
+2733	Friedhof	der	
+2734	gruselig		
+2735	Ansicht	die	
+2736	blockieren		
+2737	verleihen		
+2738	Charakter	der	
+2739	Treffer	der	
+2740	kichern		
+2741	Zwerg	der	
+2742	Religion	die	
+2743	einzigartig		
+2744	absetzen		
+2745	Ausrüstung	die	
+2746	Segen	der	
+2747	umarmen		
+2748	Pirat	der	
+2749	befördern		
+2750	Dummheit	die	
+2751	anonym		
+2752	Kapitel	das	
+2753	niedlich		
+2754	schüchtern		
+2755	hüten		
+2756	Durst	der	
+2757	sicherstellen		
+2758	verweigern		
+2759	Irrtum	der	
+2760	Zuschauer	der	
+2761	faszinieren		
+2762	Vorwurf	der	
+2763	tragisch		
+2764	zünden		
+2765	widmen		
+2766	Kreditkarte	die	
+2767	antreten		
+2768	laufend		
+2769	zuständig		
+2770	kräftig		
+2771	rauswerfen		
+2772	auflösen		
+2773	Kämpfer	der	
+2774	verehren		
+2775	Pfeil	der	
+2776	Ausweg	der	
+2777	hinweg		
+2778	Schmuck	der	
+2779	Kandidat	der	
+2780	Hauptsache	die	
+2781	entgegen		
+2782	schwingen		
+2783	Zorn	der	
+2784	ausbrechen		
+2785	Geständnis	das	
+2786	gründlich		
+2787	alternativ		
+2788	strahlen		
+2789	Puls	der	
+2790	Rettung	die	
+2791	ausnutzen		
+2792	sozusagen		
+2793	Eingang	der	
+2794	Forschung	die	
+2795	Gewinn	der	
+2796	doof		
+2797	ausschalten		
+2798	Gegenwart	die	
+2799	finanziell		
+2800	durchaus		
+2801	apropos		
+2802	Anspruch	der	
+2803	ansonsten		
+2804	erfassen		
+2805	Bedürfnis	das	
+2806	einmischen		
+2807	charmant		
+2808	Hase	der	
+2809	fies		
+2810	Paradies	das	
+2811	jenseits		
+2812	Diebstahl	der	
+2813	Instinkt	der	
+2814	erzeugen		
+2815	Führerschein	der	
+2816	online		
+2817	teilnehmen		
+2818	legal		
+2819	Werbung	die	
+2820	aufhängen		
+2821	aufmerksam		
+2822	entwerfen		
+2823	Anblick	der	
+2824	einrichten		
+2825	unnötig		
+2826	grillen		
+2827	Fortschritt	der	
+2828	Trainer	der	
+2829	anwesend		
+2830	Diskussion	die	
+2831	Tragödie	die	
+2832	verschweigen		
+2833	angestellt		
+2834	Aktivität	die	
+2835	hindern		
+2836	verwandt		
+2837	produzieren		
+2838	rudern		
+2839	soeben		
+2840	gütig		
+2841	Telefonnummer	die	
+2842	Gesang	der	
+2843	Muster	das	
+2844	sozial		
+2845	beziehen		
+2846	angeben		
+2847	Produkt	das	
+2848	aua		
+2849	Zaun	der	
+2850	Gewinner	der	
+2851	Verständnis	das	
+2852	gehorchen		
+2853	Toast	der	
+2854	Frosch	der	
+2855	Magazin	das	
+2856	ekelhaft		
+2857	vorlesen		
+2858	verwechseln		
+2859	Teenager	der	
+2860	umgeben		
+2861	frech		
+2862	Wächter	der	
+2863	allgemein		
+2864	Zirkus	der	
+2865	zurzeit		
+2866	Geschwindigkeit	die	
+2867	Apparat	der	
+2868	Krise	die	
+2869	aufziehen		
+2870	kühl		
+2871	Märchen	das	
+2872	Wille	der	
+2873	beleidigen		
+2874	erleiden		
+2875	Mannschaft	die	
+2876	unterschiedlich		
+2877	überreden		
+2878	Ziege	die	
+2879	riskant		
+2880	Kofferraum	der	
+2881	Grundstück	das	
+2882	biegen		
+2883	Feder	die	
+2884	eingreifen		
+2885	anstrengend		
+2886	grob		
+2887	bezüglich		
+2888	Aufregung	die	
+2889	anfühlen		
+2890	Felsen	der	
+2891	schütteln		
+2892	ausfallen		
+2893	Kommentar	der	
+2894	Ausnahme	die	
+2895	regieren		
+2896	aufrichtig		
+2897	donnern		
+2898	Tempo	das	
+2899	kriechen		
+2900	niedrig		
+2901	Ente	die	
+2902	absurd		
+2903	Persönlichkeit	die	
+2904	kreischen		
+2905	Gemälde	das	
+2906	Gang	der	
+2907	Steak	das	
+2908	darstellen		
+2909	geheimnisvoll		
+2910	überwinden		
+2911	mitspielen		
+2912	Daumen	der	
+2913	Testament	das	
+2914	übernachten		
+2915	enorm		
+2916	Batterie	die	
+2917	wissenschaftlich		
+2918	Regisseur	der	
+2919	bezaubernd		
+2920	Schachtel	die	
+2921	bewusstlos		
+2922	Drohung	die	
+2923	absichtlich		
+2924	Spaziergang	der	
+2925	sowie		
+2926	Hai	der	
+2927	exakt		
+2928	unendlich		
+2929	Sirene	die	
+2930	Verlierer	der	
+2931	Einrichtung	die	
+2932	schweben		
+2933	lecken		
+2934	entspannt		
+2935	Akzent	der	
+2936	Existenz	die	
+2937	ohnmächtig		
+2938	ernten		
+2939	beeindrucken		
+2940	entsprechen		
+2941	Eimer	der	
+2942	unfair		
+2943	erfordern		
+2944	Esel	der	
+2945	wärmen		
+2946	Entfernung	die	
+2947	belasten		
+2948	wesentlich		
+2949	Ozean	der	
+2950	Vorrat	der	
+2951	weichen		
+2952	Herzinfarkt	der	
+2953	unabhängig		
+2954	einschalten		
+2955	elektrisch		
+2956	beruflich		
+2957	Heilmittel	das	
+2958	aufklären		
+2959	lediglich		
+2960	Entwicklung	die	
+2961	vereinbaren		
+2962	Drama	das	
+2963	bewachen		
+2964	geistig		
+2965	Brieftasche	die	
+2966	ursprünglich		
+2967	Wettbewerb	der	
+2968	leugnen		
+2969	duften		
+2970	Datei	die	
+2971	Whisky	der	
+2972	Detektiv	der	
+2973	kippen		
+2974	blutig		
+2975	Kloster	das	
+2976	Zivilisation	die	
+2977	Gelände	das	
+2978	flirten		
+2979	Sorte	die	
+2980	Mahlzeit	die	
+2981	Kredit	der	
+2982	Dankeschön	das	
+2983	Politiker	der	
+2984	befolgen		
+2985	letztendlich		
+2986	eventuell		
+2987	Studie	die	
+2988	unerwartet		
+2989	Kaution	die	
+2990	zurückhalten		
+2991	umwerfen		
+2992	Frucht	die	
+2993	kürzen		
+2994	Beschreibung	die	
+2995	anpassen		
+2996	Nahrung	die	
+2997	mysteriös		
+2998	nebenbei		
+2999	Nebel	der	
+3000	Zwischenzeit	die	
+3001	Zugriff	der	
+3002	Scheibe	die	
+3003	Blutdruck	der	
+3004	hinfahren		
+3005	Hühnchen	das	
+3006	Schnaps	der	
+3007	Biene	die	
+3008	religiös		
+3009	Meldung	die	
+3010	Praxis	die	
+3011	Priorität	die	
+3012	adoptieren		
+3013	Kummer	der	
+3014	Brett	das	
+3015	Villa	die	
+3016	stumm		
+3017	reizend		
+3018	Tattoo	das	
+3019	vielmals		
+3020	Dschungel	der	
+3021	Strategie	die	
+3022	Frisur	die	
+3023	Bargeld	das	
+3024	Muskel	der	
+3025	analysieren		
+3026	untergehen		
+3027	bedecken		
+3028	brillant		
+3029	Gegensatz	der	
+3030	Trost	der	
+3031	umsehen		
+3032	Nonne	die	
+3033	beachten		
+3034	jugendlich		
+3035	Vernunft	die	
+3036	Niere	die	
+3037	aufschreiben		
+3038	aktuell		
+3039	Beschwerde	die	
+3040	Turm	der	
+3041	Kenntnis	die	
+3042	Bach	der	
+3043	rauschen		
+3044	Eigentum	das	
+3045	austauschen		
+3046	Zettel	der	
+3047	Golf	das	
+3048	aggressiv		
+3049	abstellen		
+3050	unterschätzen		
+3051	nochmals		
+3052	widerstehen		
+3053	Krieg	der	
+3054	regelmäßig		
+3055	Trennung	die	
+3056	klicken		
+3057	Beileid	das	
+3058	Lautsprecher	der	
+3059	genügend		
+3060	feindlich		
+3061	vertraulich		
+3062	Nachbarschaft	die	
+3063	flüchten		
+3064	verdecken		
