@@ -1,0 +1,9 @@
+# Secrets
+.env
+
+# Pipeline output (audio, clips, lessons) stays on the laptop and syncs via Syncthing
+pipeline/voice_test_output/
+pipeline/output/
+__pycache__/
+*.pyc
+.venv/
