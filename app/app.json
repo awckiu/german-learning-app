@@ -34,6 +34,12 @@
     "backgroundColor": "#121214",
     "platforms": [
       "android"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "1a950733-9932-485a-bc54-4c0f11e31c74"
+      }
+    },
+    "owner": "awckiu"
   }
 }
