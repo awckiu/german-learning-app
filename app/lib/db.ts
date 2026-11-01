@@ -54,6 +54,20 @@ const migrations = [
     value TEXT NOT NULL
   );
   `,
+  `
+  -- One row per course lesson finished at least once. Scores are 0 to 1.
+  CREATE TABLE lesson_progress (
+    lesson_id TEXT PRIMARY KEY NOT NULL,
+    completed_at INTEGER NOT NULL,
+    best_score REAL NOT NULL
+  );
+
+  -- Words met in a lesson, introduced in Review before the frequency list.
+  CREATE TABLE word_queue (
+    rank INTEGER PRIMARY KEY NOT NULL REFERENCES words(rank),
+    queued_at INTEGER NOT NULL
+  );
+  `,
 ];
 
 export async function migrate(db: SQLiteDatabase) {
@@ -73,7 +87,8 @@ export async function migrate(db: SQLiteDatabase) {
 export type SettingKey =
   | 'ingest_folder' // content:// URI of the GermanAppIngest folder the user picked
   | 'audio_bank_stamp' // size and modification time of the last imported manifest.json
-  | 'new_words_per_day';
+  | 'new_words_per_day'
+  | 'lesson_show_text'; // '1' to show sentence text while it plays
 
 export async function getSetting(db: SQLiteDatabase, key: SettingKey) {
   const row = await db.getFirstAsync<{ value: string }>('SELECT value FROM settings WHERE key = ?', key);

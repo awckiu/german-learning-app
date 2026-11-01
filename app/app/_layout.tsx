@@ -30,6 +30,7 @@ export default function RootLayout() {
           <Stack>
             <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
             <Stack.Screen name="session" options={{ headerShown: false, animation: 'slide_from_bottom' }} />
+            <Stack.Screen name="lesson/[id]" options={{ headerShown: false, animation: 'slide_from_bottom' }} />
           </Stack>
         </AudioBankProvider>
       </SQLiteProvider>
