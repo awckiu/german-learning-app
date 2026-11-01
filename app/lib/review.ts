@@ -88,8 +88,11 @@ export async function nextReviewItem(db: SQLiteDatabase, now = new Date()): Prom
   if (due) return { word: due, card: toCard(due), isNew: false };
 
   if ((await newWordsLeftToday(db, now)) > 0) {
+    // Words met in a lesson jump the queue; after them, most frequent first.
     const word = await db.getFirstAsync<Word>(
-      'SELECT * FROM words WHERE rank NOT IN (SELECT word_rank FROM cards) ORDER BY rank LIMIT 1',
+      `SELECT w.* FROM words w LEFT JOIN word_queue q ON q.rank = w.rank
+       WHERE w.rank NOT IN (SELECT word_rank FROM cards)
+       ORDER BY q.queued_at IS NULL, q.queued_at, w.rank LIMIT 1`,
     );
     if (word) return { word, card: createEmptyCard(now), isNew: true };
   }
