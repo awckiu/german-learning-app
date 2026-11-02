@@ -1,6 +1,8 @@
+import { setAudioModeAsync } from 'expo-audio';
 import { DarkTheme, Stack, ThemeProvider } from 'expo-router';
 import { SQLiteProvider } from 'expo-sqlite';
 import { StatusBar } from 'expo-status-bar';
+import { useEffect } from 'react';
 import 'react-native-reanimated';
 
 import { colors } from '@/constants/theme';
@@ -22,6 +24,11 @@ const theme = {
 };
 
 export default function RootLayout() {
+  // Android skips playback when the phone is on silent or vibrate unless this is set.
+  useEffect(() => {
+    setAudioModeAsync({ playsInSilentMode: true }).catch(() => {});
+  }, []);
+
   return (
     <ThemeProvider value={theme}>
       <StatusBar style="light" />

@@ -6,7 +6,8 @@ import { ActivityIndicator, Pressable, StyleSheet, Text, View } from 'react-nati
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { Button } from '@/components/Button';
-import { colors, genderColors } from '@/constants/theme';
+import { WordText } from '@/components/WordText';
+import { colors } from '@/constants/theme';
 import { findLesson, isBreakthrough } from '@/content/course';
 import { useAudioBank } from '@/lib/AudioBankProvider';
 import { getSetting, setSetting } from '@/lib/db';
@@ -14,15 +15,14 @@ import {
   BREAKTHROUGH_PASS,
   buildQuiz,
   completeLesson,
-  isWordToken,
   loadLessonWords,
   loadWordLookup,
   type QuizCard,
   spoken,
-  tokenize,
 } from '@/lib/lessons';
 import type { Word } from '@/lib/review';
 import { useAudioQueue } from '@/lib/useAudioQueue';
+import { emptyLookup, sayWord, type WordLookup } from '@/lib/words';
 
 type Phase = 'listen' | 'quiz' | 'done';
 
@@ -40,7 +40,7 @@ export default function LessonScreen() {
   const audio = useAudioQueue();
 
   const [words, setWords] = useState<Word[] | null>(null);
-  const [lookup, setLookup] = useState<Map<string, Word>>(new Map());
+  const [lookup, setLookup] = useState<WordLookup>(emptyLookup);
   const [quiz, setQuiz] = useState<QuizCard[]>([]);
   const [showText, setShowText] = useState(false);
   const [phase, setPhase] = useState<Phase>('listen');
@@ -168,7 +168,11 @@ export default function LessonScreen() {
         <>
           <View style={[styles.grow, styles.center]}>
             {showText || heard ? (
-              <TappableText text={item.sentence ?? spoken(item)} lookup={lookup} onWord={(w) => audio.play([w.audio])} />
+              <WordText
+                text={item.sentence ?? spoken(item)}
+                lookup={lookup}
+                onWord={(token) => sayWord(token, lookup, (uri) => audio.play([uri]))}
+              />
             ) : (
               <SymbolView name={{ android: 'hearing' }} tintColor={colors.muted} size={56} />
             )}
@@ -247,24 +251,6 @@ export default function LessonScreen() {
         </View>
       )}
     </SafeAreaView>
-  );
-}
-
-/** Sentence text where every word from the audio bank can be tapped to hear it. */
-function TappableText({ text, lookup, onWord }: { text: string; lookup: Map<string, Word>; onWord: (w: Word) => void }) {
-  return (
-    <Text style={styles.sentence}>
-      {tokenize(text).map((token, i) => {
-        const word = isWordToken(token) ? lookup.get(token.toLowerCase()) : undefined;
-        if (!word) return token;
-        const gender = word.article as keyof typeof genderColors | null;
-        return (
-          <Text key={i} onPress={() => onWord(word)} style={gender && genderColors[gender] ? { color: genderColors[gender] } : undefined}>
-            {token}
-          </Text>
-        );
-      })}
-    </Text>
   );
 }
 

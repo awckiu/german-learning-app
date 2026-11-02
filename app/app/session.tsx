@@ -8,9 +8,12 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { type Grade, Rating } from 'ts-fsrs';
 
 import { Button } from '@/components/Button';
+import { WordText } from '@/components/WordText';
 import { colors, genderColors } from '@/constants/theme';
 import { useAudioBank } from '@/lib/AudioBankProvider';
+import { loadWordLookup } from '@/lib/lessons';
 import { countDueToday, nextIntervals, nextReviewItem, rate, type ReviewItem, sentenceAudio } from '@/lib/review';
+import { emptyLookup, glossForRank, sayWord, type WordLookup } from '@/lib/words';
 
 const grades: { grade: Grade; label: string; color: string }[] = [
   { grade: Rating.Again, label: 'Again', color: colors.coral },
@@ -26,6 +29,12 @@ export default function SessionScreen() {
   const [item, setItem] = useState<ReviewItem | null | undefined>(undefined);
   const [revealed, setRevealed] = useState(false);
   const [left, setLeft] = useState(0);
+  const [lookup, setLookup] = useState<WordLookup>(emptyLookup);
+  const [showGloss, setShowGloss] = useState(false);
+
+  useEffect(() => {
+    loadWordLookup(db).then(setLookup);
+  }, [db]);
 
   const play = useCallback(
     (uri: string | null) => {
@@ -40,6 +49,7 @@ export default function SessionScreen() {
     const [next, counts] = await Promise.all([nextReviewItem(db), countDueToday(db)]);
     setLeft(counts.total);
     setRevealed(false);
+    setShowGloss(false);
     setItem(next);
     if (next) play(next.word.audio);
   }, [db, play]);
@@ -86,17 +96,34 @@ export default function SessionScreen() {
       {item && (
         <>
           <Pressable style={[styles.grow, styles.center]} onPress={reveal}>
-            <Text style={[styles.word, { color: wordColor(item.word.article) }]}>
-              {[item.word.article, item.word.word].filter(Boolean).join(' ')}
-            </Text>
+            <Pressable
+              onPress={revealed ? () => play(item.word.audio) : reveal}
+              onLongPress={() => setShowGloss(!showGloss)}
+              delayLongPress={350}>
+              <Text style={[styles.word, { color: wordColor(item.word.article) }]}>
+                {[item.word.article, item.word.word].filter(Boolean).join(' ')}
+              </Text>
+            </Pressable>
+            {showGloss && (
+              <Text style={styles.gloss}>{glossForRank(item.word.rank) ?? 'No English for this word yet.'}</Text>
+            )}
             <Pressable onPress={() => play(item.word.audio)} hitSlop={16} style={styles.speaker}>
               <SymbolView name={{ android: 'volume_up' }} tintColor={colors.text} size={32} />
             </Pressable>
 
             {revealed && item.word.sentence && (
-              <Pressable onPress={() => play(sentenceAudio(item))} hitSlop={8}>
-                <Sentence text={item.word.sentence} word={item.word.word} />
-              </Pressable>
+              <>
+                <WordText
+                  text={item.word.sentence}
+                  lookup={lookup}
+                  bold={item.word.word}
+                  size={20}
+                  onWord={(token) => sayWord(token, lookup, play)}
+                />
+                <Pressable onPress={() => play(sentenceAudio(item))} hitSlop={16} style={styles.speaker}>
+                  <SymbolView name={{ android: 'replay' }} tintColor={colors.muted} size={26} />
+                </Pressable>
+              </>
             )}
             {!revealed && <Text style={styles.hint}>Tap to reveal</Text>}
           </Pressable>
@@ -122,25 +149,6 @@ function Grades({ item, onGrade }: { item: ReviewItem; onGrade: (g: Grade) => vo
         </Pressable>
       ))}
     </View>
-  );
-}
-
-/** The example sentence, with the card's word in bold wherever it appears. */
-function Sentence({ text, word }: { text: string; word: string }) {
-  // Split on anything that isn't a German letter, keeping the separators.
-  const parts = text.split(/([^A-Za-zÄÖÜäöüß]+)/);
-  return (
-    <Text style={styles.sentence}>
-      {parts.map((part, i) =>
-        part.toLowerCase() === word.toLowerCase() ? (
-          <Text key={i} style={styles.sentenceWord}>
-            {part}
-          </Text>
-        ) : (
-          part
-        ),
-      )}
-    </Text>
   );
 }
 
@@ -184,14 +192,10 @@ const styles = StyleSheet.create({
     fontSize: 15,
     color: colors.muted,
   },
-  sentence: {
-    fontSize: 22,
-    lineHeight: 32,
-    color: colors.text,
+  gloss: {
+    fontSize: 18,
+    color: colors.muted,
     textAlign: 'center',
-  },
-  sentenceWord: {
-    fontWeight: '800',
   },
   done: {
     fontSize: 36,

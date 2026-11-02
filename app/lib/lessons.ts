@@ -2,6 +2,7 @@ import type { SQLiteDatabase } from 'expo-sqlite';
 
 import { course, type CourseLesson, isBreakthrough } from '@/content/course';
 import type { Word } from '@/lib/review';
+import type { WordLookup } from '@/lib/words';
 
 export const BREAKTHROUGH_PASS = 0.8;
 const QUIZ_LENGTH = 5;
@@ -35,16 +36,17 @@ export async function loadLessonWords(db: SQLiteDatabase, lesson: CourseLesson):
   return lesson.items.flatMap((rank) => byRank.get(rank) ?? []);
 }
 
-/** Every bank word by its lower-case spelling, so any word in a sentence can be tapped. */
-export async function loadWordLookup(db: SQLiteDatabase) {
-  const rows = await db.getAllAsync<Word>('SELECT * FROM words');
-  const lookup = new Map<string, Word>();
+/** Every bank word and recorded word form by lower-case spelling, so any word in a sentence can be tapped. */
+export async function loadWordLookup(db: SQLiteDatabase): Promise<WordLookup> {
+  const rows = await db.getAllAsync<Word>('SELECT * FROM words ORDER BY rank');
+  const words = new Map<string, Word>();
   for (const w of rows) {
     const key = w.word.toLowerCase();
     // Keep the most frequent entry when two words share a spelling.
-    if (!lookup.has(key)) lookup.set(key, w);
+    if (!words.has(key)) words.set(key, w);
   }
-  return lookup;
+  const forms = await db.getAllAsync<{ form: string; audio: string }>('SELECT form, audio FROM word_forms');
+  return { words, forms: new Map(forms.map((f) => [f.form, f.audio])) };
 }
 
 export type QuizCard =
@@ -126,11 +128,11 @@ export async function completeLesson(db: SQLiteDatabase, lesson: CourseLesson, w
 
 /** Splits a sentence into words and the spaces and punctuation between them. */
 export function tokenize(text: string) {
-  return text.split(/([^A-Za-zÄÖÜäöüß]+)/).filter(Boolean);
+  return text.split(/([^A-Za-zÀ-ÖØ-öø-ÿ]+)/).filter(Boolean);
 }
 
 export function isWordToken(token: string) {
-  return /^[A-Za-zÄÖÜäöüß]+$/.test(token);
+  return /^[A-Za-zÀ-ÖØ-öø-ÿ]+$/.test(token);
 }
 
 // The sentence's own head word, if it appears unchanged, becomes the gap.
