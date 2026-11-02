@@ -45,10 +45,31 @@ py audio_bank.py
 
 Already generated files are skipped, so you can stop it (Ctrl+C) and run it again later. It stops if the run would cost more than `--budget` (default 125,000). `output\audio_bank\manifest.json` maps each word to its audio files for the app.
 
+## Step 3: lessons from videos
+
+`process_media.py` turns new episodes from `sources.json` (Nicos Weg A1 first) into lesson packages in `output\lessons\`, which Syncthing copies to the phone. The format is described in `plan/lesson-format.md` in the project files.
+
+One-time setup:
+
+```
+py -m pip install -r requirements-media.txt
+```
+
+ffmpeg, yt-dlp and Claude Code (signed in with your Pro account) must be installed. For speaker labels, make a free [Hugging Face](https://huggingface.co/join) account, accept the terms on the [speaker-diarization-3.1](https://huggingface.co/pyannote/speaker-diarization-3.1) and [segmentation-3.0](https://huggingface.co/pyannote/segmentation-3.0) pages, create a read token, and add `HF_TOKEN=...` to `.env`. Without it, lessons are made without speaker colours.
+
+Test batch, then the weekly run:
+
+```
+py process_media.py --max-episodes 5
+py process_media.py
+```
+
+Each run handles up to 10 new episodes (`--max-episodes`) and stops when 50 lessons are unwatched (`--buffer`). Work in progress is kept in `work\`, so a stopped run carries on next time. No ElevenLabs credits are used.
+
 ## Scripts
 
 | Script | Step | What it does |
 | --- | --- | --- |
 | `voice_test.py` | 1 | Compare voices |
 | `audio_bank.py` | 2 | Words in Sarah, sentences in Sarah and Lennard |
-| `process_media.py` | 3 | Download, transcribe, label speakers, tag by course lesson, cut clips (coming next) |
+| `process_media.py` | 3 | Download, transcribe, label speakers, sort into course lessons, cut clips and stills |

@@ -1,0 +1,1120 @@
+{
+ "source": "plan/course-outline.md",
+ "levels": [
+  {
+   "level": 1,
+   "theme": "Your first conversation",
+   "lessons": [
+    {
+     "id": "L1.1",
+     "title": "Greetings and farewells"
+    },
+    {
+     "id": "L1.2",
+     "title": "Having a basic conversation"
+    },
+    {
+     "id": "L1.3",
+     "title": "Asking about mood"
+    },
+    {
+     "id": "L1.4",
+     "title": "Introducing yourself"
+    },
+    {
+     "id": "L1.5",
+     "title": "Breakthrough Lesson",
+     "breakthrough": true
+    }
+   ]
+  },
+  {
+   "level": 2,
+   "theme": "Sharing personal information",
+   "lessons": [
+    {
+     "id": "L2.1",
+     "title": "Your name and age"
+    },
+    {
+     "id": "L2.2",
+     "title": "Your home country"
+    },
+    {
+     "id": "L2.3",
+     "title": "Your job"
+    },
+    {
+     "id": "L2.4",
+     "title": "Breakthrough Lesson",
+     "breakthrough": true
+    }
+   ]
+  },
+  {
+   "level": 3,
+   "theme": "Asking general questions",
+   "lessons": [
+    {
+     "id": "L3.1",
+     "title": "Asking for a German word"
+    },
+    {
+     "id": "L3.2",
+     "title": "Asking for clarification"
+    },
+    {
+     "id": "L3.3",
+     "title": "Breakthrough Lesson",
+     "breakthrough": true
+    }
+   ]
+  },
+  {
+   "level": 4,
+   "theme": "Daily habits",
+   "lessons": [
+    {
+     "id": "L4.1",
+     "title": "Morning and midday routines"
+    },
+    {
+     "id": "L4.2",
+     "title": "Afternoon and evening routines"
+    },
+    {
+     "id": "L4.3",
+     "title": "Your first half of the week"
+    },
+    {
+     "id": "L4.4",
+     "title": "Getting closer to the weekend"
+    },
+    {
+     "id": "L4.5",
+     "title": "Your weekend plans"
+    },
+    {
+     "id": "L4.6",
+     "title": "Breakthrough Lesson",
+     "breakthrough": true
+    }
+   ]
+  },
+  {
+   "level": 5,
+   "theme": "Time and schedules",
+   "lessons": [
+    {
+     "id": "L5.1",
+     "title": "Asking about time"
+    },
+    {
+     "id": "L5.2",
+     "title": "Sharing your daily agenda"
+    },
+    {
+     "id": "L5.3",
+     "title": "Discussing your schedule"
+    },
+    {
+     "id": "L5.4",
+     "title": "Breakthrough Lesson",
+     "breakthrough": true
+    }
+   ]
+  },
+  {
+   "level": 6,
+   "theme": "Sharing what you like",
+   "lessons": [
+    {
+     "id": "L6.1",
+     "title": "An activity you like"
+    },
+    {
+     "id": "L6.2",
+     "title": "One thing you like"
+    },
+    {
+     "id": "L6.3",
+     "title": "Several things you like (gefällt / gefallen*)"
+    },
+    {
+     "id": "L6.4",
+     "title": "Breakthrough Lesson",
+     "breakthrough": true
+    }
+   ]
+  },
+  {
+   "level": 7,
+   "theme": "Talking about preferences",
+   "lessons": [
+    {
+     "id": "L7.1",
+     "title": "General preferences"
+    },
+    {
+     "id": "L7.2",
+     "title": "Specific preferences"
+    },
+    {
+     "id": "L7.3",
+     "title": "Things you dislike"
+    },
+    {
+     "id": "L7.4",
+     "title": "Agreeing"
+    },
+    {
+     "id": "L7.5",
+     "title": "Disagreeing"
+    },
+    {
+     "id": "L7.6",
+     "title": "Breakthrough Lesson",
+     "breakthrough": true
+    }
+   ]
+  },
+  {
+   "level": 8,
+   "theme": "Talking about desires",
+   "lessons": [
+    {
+     "id": "L8.1",
+     "title": "What you want to do"
+    },
+    {
+     "id": "L8.2",
+     "title": "Disagreeing with others' wants"
+    },
+    {
+     "id": "L8.3",
+     "title": "Agreeing with others' wants"
+    },
+    {
+     "id": "L8.4",
+     "title": "Breakthrough Lesson",
+     "breakthrough": true
+    }
+   ]
+  },
+  {
+   "level": 9,
+   "theme": "Talking about plans",
+   "lessons": [
+    {
+     "id": "L9.1",
+     "title": "Your week plans"
+    },
+    {
+     "id": "L9.2",
+     "title": "Reasons to do something"
+    },
+    {
+     "id": "L9.3",
+     "title": "Reasons and goals"
+    },
+    {
+     "id": "L9.4",
+     "title": "Breakthrough Lesson",
+     "breakthrough": true
+    }
+   ]
+  },
+  {
+   "level": 10,
+   "theme": "Nationalities and jobs",
+   "lessons": [
+    {
+     "id": "L10.1",
+     "title": "Nationalities, male and female forms*"
+    },
+    {
+     "id": "L10.2",
+     "title": "Jobs, -er / -erin forms*"
+    },
+    {
+     "id": "L10.3",
+     "title": "Breakthrough Lesson",
+     "breakthrough": true
+    }
+   ]
+  },
+  {
+   "level": 11,
+   "theme": "Describing people and things",
+   "lessons": [
+    {
+     "id": "L11.1",
+     "title": "The way you look"
+    },
+    {
+     "id": "L11.2",
+     "title": "Hair and face"
+    },
+    {
+     "id": "L11.3",
+     "title": "Personality"
+    },
+    {
+     "id": "L11.4",
+     "title": "Describing things"
+    },
+    {
+     "id": "L11.5",
+     "title": "Comparing things"
+    },
+    {
+     "id": "L11.6",
+     "title": "Breakthrough Lesson",
+     "breakthrough": true
+    }
+   ]
+  },
+  {
+   "level": 12,
+   "theme": "Describing your family",
+   "lessons": [
+    {
+     "id": "L12.1",
+     "title": "Parents and siblings"
+    },
+    {
+     "id": "L12.2",
+     "title": "Relationship status"
+    },
+    {
+     "id": "L12.3",
+     "title": "Grandparents and children"
+    },
+    {
+     "id": "L12.4",
+     "title": "Breakthrough Lesson",
+     "breakthrough": true
+    }
+   ]
+  },
+  {
+   "level": 13,
+   "theme": "Expressing emotions",
+   "lessons": [
+    {
+     "id": "L13.1",
+     "title": "Basic moods"
+    },
+    {
+     "id": "L13.2",
+     "title": "Physical needs"
+    },
+    {
+     "id": "L13.3",
+     "title": "Breakthrough Lesson",
+     "breakthrough": true
+    }
+   ]
+  },
+  {
+   "level": 14,
+   "theme": "Talking about food",
+   "lessons": [
+    {
+     "id": "L14.1",
+     "title": "Food preferences"
+    },
+    {
+     "id": "L14.2",
+     "title": "Ordering in a restaurant"
+    },
+    {
+     "id": "L14.3",
+     "title": "Ordering in a café"
+    },
+    {
+     "id": "L14.4",
+     "title": "Details for your coffee order"
+    },
+    {
+     "id": "L14.5",
+     "title": "Breakthrough Lesson",
+     "breakthrough": true
+    }
+   ]
+  },
+  {
+   "level": 15,
+   "theme": "Skills and hobbies",
+   "lessons": [
+    {
+     "id": "L15.1",
+     "title": "Actions in progress"
+    },
+    {
+     "id": "L15.2",
+     "title": "What you can do (können)"
+    },
+    {
+     "id": "L15.3",
+     "title": "What you know (wissen / kennen*)"
+    },
+    {
+     "id": "L15.4",
+     "title": "Your hobbies"
+    },
+    {
+     "id": "L15.5",
+     "title": "Breakthrough Lesson",
+     "breakthrough": true
+    }
+   ]
+  },
+  {
+   "level": 16,
+   "theme": "Doing sports",
+   "lessons": [
+    {
+     "id": "L16.1",
+     "title": "Physical activity"
+    },
+    {
+     "id": "L16.2",
+     "title": "Weekly frequency"
+    },
+    {
+     "id": "L16.3",
+     "title": "Breakthrough Lesson",
+     "breakthrough": true
+    }
+   ]
+  },
+  {
+   "level": 17,
+   "theme": "Feelings and thoughts",
+   "lessons": [
+    {
+     "id": "L17.1",
+     "title": "Something hurts"
+    },
+    {
+     "id": "L17.2",
+     "title": "How you feel"
+    },
+    {
+     "id": "L17.3",
+     "title": "Your thoughts"
+    },
+    {
+     "id": "L17.4",
+     "title": "Going to the doctor"
+    },
+    {
+     "id": "L17.5",
+     "title": "Healthy tips"
+    },
+    {
+     "id": "L17.6",
+     "title": "Breakthrough Lesson",
+     "breakthrough": true
+    }
+   ]
+  },
+  {
+   "level": 18,
+   "theme": "Talking about clothes",
+   "lessons": [
+    {
+     "id": "L18.1",
+     "title": "Naming clothing items"
+    },
+    {
+     "id": "L18.2",
+     "title": "Going shopping"
+    },
+    {
+     "id": "L18.3",
+     "title": "Talking about size"
+    },
+    {
+     "id": "L18.4",
+     "title": "Talking about colours"
+    },
+    {
+     "id": "L18.5",
+     "title": "Breakthrough Lesson",
+     "breakthrough": true
+    }
+   ]
+  },
+  {
+   "level": 19,
+   "theme": "Packing for the seasons",
+   "lessons": [
+    {
+     "id": "L19.1",
+     "title": "Summer"
+    },
+    {
+     "id": "L19.2",
+     "title": "Winter"
+    },
+    {
+     "id": "L19.3",
+     "title": "Spring and autumn"
+    },
+    {
+     "id": "L19.4",
+     "title": "Breakthrough Lesson",
+     "breakthrough": true
+    }
+   ]
+  },
+  {
+   "level": 20,
+   "theme": "Your next big trip",
+   "lessons": [
+    {
+     "id": "L20.1",
+     "title": "Moving around the airport"
+    },
+    {
+     "id": "L20.2",
+     "title": "Booking a room"
+    },
+    {
+     "id": "L20.3",
+     "title": "Reporting an issue at the airport"
+    },
+    {
+     "id": "L20.4",
+     "title": "Solving it"
+    },
+    {
+     "id": "L20.5",
+     "title": "Reporting an issue at the hotel"
+    },
+    {
+     "id": "L20.6",
+     "title": "Solving it"
+    },
+    {
+     "id": "L20.7",
+     "title": "Breakthrough Lesson",
+     "breakthrough": true
+    }
+   ]
+  },
+  {
+   "level": 21,
+   "theme": "Talking about the weather",
+   "lessons": [
+    {
+     "id": "L21.1",
+     "title": "The weather forecast"
+    },
+    {
+     "id": "L21.2",
+     "title": "Getting ready for the weather"
+    },
+    {
+     "id": "L21.3",
+     "title": "Breakthrough Lesson",
+     "breakthrough": true
+    }
+   ]
+  },
+  {
+   "level": 22,
+   "theme": "Planning a trip",
+   "lessons": [
+    {
+     "id": "L22.1",
+     "title": "Discussing a destination"
+    },
+    {
+     "id": "L22.2",
+     "title": "Deciding on dates and transport"
+    },
+    {
+     "id": "L22.3",
+     "title": "Breakthrough Lesson",
+     "breakthrough": true
+    }
+   ]
+  },
+  {
+   "level": 23,
+   "theme": "Getting around the city",
+   "lessons": [
+    {
+     "id": "L23.1",
+     "title": "Places in a city"
+    },
+    {
+     "id": "L23.2",
+     "title": "General directions"
+    },
+    {
+     "id": "L23.3",
+     "title": "Specific directions"
+    },
+    {
+     "id": "L23.4",
+     "title": "Breakthrough Lesson",
+     "breakthrough": true
+    }
+   ]
+  },
+  {
+   "level": 24,
+   "theme": "Making plans",
+   "lessons": [
+    {
+     "id": "L24.1",
+     "title": "Buying tickets for an event"
+    },
+    {
+     "id": "L24.2",
+     "title": "Proposing a plan"
+    },
+    {
+     "id": "L24.3",
+     "title": "Making a restaurant reservation"
+    },
+    {
+     "id": "L24.4",
+     "title": "Breakthrough Lesson",
+     "breakthrough": true
+    }
+   ]
+  },
+  {
+   "level": 25,
+   "theme": "Going on a date",
+   "lessons": [
+    {
+     "id": "L25.1",
+     "title": "Getting ready for a date"
+    },
+    {
+     "id": "L25.2",
+     "title": "A date in a bar"
+    },
+    {
+     "id": "L25.3",
+     "title": "A date in a restaurant"
+    },
+    {
+     "id": "L25.4",
+     "title": "Breakthrough Lesson",
+     "breakthrough": true
+    }
+   ]
+  },
+  {
+   "level": 26,
+   "theme": "Future actions",
+   "lessons": [
+    {
+     "id": "L26.1",
+     "title": "Wishes"
+    },
+    {
+     "id": "L26.2",
+     "title": "Intentions with werden*"
+    },
+    {
+     "id": "L26.3",
+     "title": "Intentions with vorhaben / wollen*"
+    },
+    {
+     "id": "L26.4",
+     "title": "Things you have to do (müssen)"
+    },
+    {
+     "id": "L26.5",
+     "title": "Breakthrough Lesson",
+     "breakthrough": true
+    }
+   ]
+  },
+  {
+   "level": 27,
+   "theme": "Describing your place",
+   "lessons": [
+    {
+     "id": "L27.1",
+     "title": "Owning or renting a flat"
+    },
+    {
+     "id": "L27.2",
+     "title": "Locating your place"
+    },
+    {
+     "id": "L27.3",
+     "title": "Describing a location"
+    },
+    {
+     "id": "L27.4",
+     "title": "The rooms in your place"
+    },
+    {
+     "id": "L27.5",
+     "title": "Breakthrough Lesson",
+     "breakthrough": true
+    }
+   ]
+  },
+  {
+   "level": 28,
+   "theme": "Explaining the use of things",
+   "lessons": [
+    {
+     "id": "L28.1",
+     "title": "Purpose with um … zu*"
+    },
+    {
+     "id": "L28.2",
+     "title": "Explaining the use of something"
+    },
+    {
+     "id": "L28.3",
+     "title": "Use with mit*"
+    },
+    {
+     "id": "L28.4",
+     "title": "Use with in / für*"
+    },
+    {
+     "id": "L28.5",
+     "title": "Breakthrough Lesson",
+     "breakthrough": true
+    }
+   ]
+  },
+  {
+   "level": 29,
+   "theme": "Talking about furniture",
+   "lessons": [
+    {
+     "id": "L29.1",
+     "title": "Living room"
+    },
+    {
+     "id": "L29.2",
+     "title": "Bedroom"
+    },
+    {
+     "id": "L29.3",
+     "title": "Kitchen"
+    },
+    {
+     "id": "L29.4",
+     "title": "Bathroom"
+    },
+    {
+     "id": "L29.5",
+     "title": "Breakthrough Lesson",
+     "breakthrough": true
+    }
+   ]
+  },
+  {
+   "level": 30,
+   "theme": "Discussing quantity",
+   "lessons": [
+    {
+     "id": "L30.1",
+     "title": "Asking about quantity"
+    },
+    {
+     "id": "L30.2",
+     "title": "Vague quantities"
+    },
+    {
+     "id": "L30.3",
+     "title": "The lack of things (kein*)"
+    },
+    {
+     "id": "L30.4",
+     "title": "Breakthrough Lesson",
+     "breakthrough": true
+    }
+   ]
+  },
+  {
+   "level": 31,
+   "theme": "Making comparisons",
+   "lessons": [
+    {
+     "id": "L31.1",
+     "title": "Size"
+    },
+    {
+     "id": "L31.2",
+     "title": "Price"
+    },
+    {
+     "id": "L31.3",
+     "title": "Quality"
+    },
+    {
+     "id": "L31.4",
+     "title": "Quantity"
+    },
+    {
+     "id": "L31.5",
+     "title": "Actions"
+    },
+    {
+     "id": "L31.6",
+     "title": "Breakthrough Lesson",
+     "breakthrough": true
+    }
+   ]
+  },
+  {
+   "level": 32,
+   "theme": "Making plans in your area",
+   "lessons": [
+    {
+     "id": "L32.1",
+     "title": "Familiar places"
+    },
+    {
+     "id": "L32.2",
+     "title": "What's around you"
+    },
+    {
+     "id": "L32.3",
+     "title": "Agreeing to meet nearby"
+    },
+    {
+     "id": "L32.4",
+     "title": "Changing a plan"
+    },
+    {
+     "id": "L32.5",
+     "title": "Breakthrough Lesson",
+     "breakthrough": true
+    }
+   ]
+  },
+  {
+   "level": 33,
+   "theme": "Managing your finances",
+   "lessons": [
+    {
+     "id": "L33.1",
+     "title": "Going to the bank"
+    },
+    {
+     "id": "L33.2",
+     "title": "A lost card"
+    },
+    {
+     "id": "L33.3",
+     "title": "Breakthrough Lesson",
+     "breakthrough": true
+    }
+   ]
+  },
+  {
+   "level": 34,
+   "theme": "Going to new places",
+   "lessons": [
+    {
+     "id": "L34.1",
+     "title": "Going to a bakery"
+    },
+    {
+     "id": "L34.2",
+     "title": "Ordering in a bakery"
+    },
+    {
+     "id": "L34.3",
+     "title": "Information at the gym"
+    },
+    {
+     "id": "L34.4",
+     "title": "Gym amenities"
+    },
+    {
+     "id": "L34.5",
+     "title": "Breakthrough Lesson",
+     "breakthrough": true
+    }
+   ]
+  },
+  {
+   "level": 35,
+   "theme": "Shopping for the essentials",
+   "lessons": [
+    {
+     "id": "L35.1",
+     "title": "Describing purchases"
+    },
+    {
+     "id": "L35.2",
+     "title": "At the pharmacy"
+    },
+    {
+     "id": "L35.3",
+     "title": "At the supermarket"
+    },
+    {
+     "id": "L35.4",
+     "title": "Breakthrough Lesson",
+     "breakthrough": true
+    }
+   ]
+  },
+  {
+   "level": 36,
+   "theme": "Issues when you're out",
+   "lessons": [
+    {
+     "id": "L36.1",
+     "title": "Finding a toilet"
+    },
+    {
+     "id": "L36.2",
+     "title": "Issues at the checkout"
+    },
+    {
+     "id": "L36.3",
+     "title": "Breakthrough Lesson",
+     "breakthrough": true
+    }
+   ]
+  },
+  {
+   "level": 37,
+   "theme": "The farmers' market",
+   "lessons": [
+    {
+     "id": "L37.1",
+     "title": "Describing a market"
+    },
+    {
+     "id": "L37.2",
+     "title": "Shopping at the market"
+    },
+    {
+     "id": "L37.3",
+     "title": "Breakthrough Lesson",
+     "breakthrough": true
+    }
+   ]
+  },
+  {
+   "level": 38,
+   "theme": "Exploring the city",
+   "lessons": [
+    {
+     "id": "L38.1",
+     "title": "Recommending places"
+    },
+    {
+     "id": "L38.2",
+     "title": "Public transport"
+    },
+    {
+     "id": "L38.3",
+     "title": "Meeting at the station"
+    },
+    {
+     "id": "L38.4",
+     "title": "Getting a ticket"
+    },
+    {
+     "id": "L38.5",
+     "title": "Asking for help at the U-Bahn"
+    },
+    {
+     "id": "L38.6",
+     "title": "Breakthrough Lesson",
+     "breakthrough": true
+    }
+   ]
+  },
+  {
+   "level": 39,
+   "theme": "Using your phone",
+   "lessons": [
+    {
+     "id": "L39.1",
+     "title": "Phone issues"
+    },
+    {
+     "id": "L39.2",
+     "title": "Getting a SIM card"
+    },
+    {
+     "id": "L39.3",
+     "title": "Messaging a group chat"
+    },
+    {
+     "id": "L39.4",
+     "title": "Breakthrough Lesson",
+     "breakthrough": true
+    }
+   ]
+  },
+  {
+   "level": 40,
+   "theme": "Settling into a new city",
+   "lessons": [
+    {
+     "id": "L40.1",
+     "title": "Your first friend"
+    },
+    {
+     "id": "L40.2",
+     "title": "Things you'd like to do"
+    },
+    {
+     "id": "L40.3",
+     "title": "Job offers"
+    },
+    {
+     "id": "L40.4",
+     "title": "Job applications"
+    },
+    {
+     "id": "L40.5",
+     "title": "Breakthrough Lesson",
+     "breakthrough": true
+    }
+   ]
+  },
+  {
+   "level": 41,
+   "theme": "Past and present actions",
+   "lessons": [
+    {
+     "id": "L41.1",
+     "title": "Your current routine"
+    },
+    {
+     "id": "L41.2",
+     "title": "Recent activities"
+    },
+    {
+     "id": "L41.3",
+     "title": "Perfekt or Präteritum*"
+    },
+    {
+     "id": "L41.4",
+     "title": "Asking about an event"
+    },
+    {
+     "id": "L41.5",
+     "title": "Sharing news of an event"
+    },
+    {
+     "id": "L41.6",
+     "title": "Breakthrough Lesson",
+     "breakthrough": true
+    }
+   ]
+  },
+  {
+   "level": 42,
+   "theme": "Before an interview",
+   "lessons": [
+    {
+     "id": "L42.1",
+     "title": "Expressing your feelings"
+    },
+    {
+     "id": "L42.2",
+     "title": "Asking for and giving advice"
+    },
+    {
+     "id": "L42.3",
+     "title": "Breakthrough Lesson",
+     "breakthrough": true
+    }
+   ]
+  },
+  {
+   "level": 43,
+   "theme": "Hosting a dinner party",
+   "lessons": [
+    {
+     "id": "L43.1",
+     "title": "Following a recipe"
+    },
+    {
+     "id": "L43.2",
+     "title": "Hosting a dinner"
+    },
+    {
+     "id": "L43.3",
+     "title": "Breakthrough Lesson",
+     "breakthrough": true
+    }
+   ]
+  },
+  {
+   "level": 44,
+   "theme": "Having a house party",
+   "lessons": [
+    {
+     "id": "L44.1",
+     "title": "Introducing a friend"
+    },
+    {
+     "id": "L44.2",
+     "title": "Comparing two cultures"
+    },
+    {
+     "id": "L44.3",
+     "title": "Life experiences"
+    },
+    {
+     "id": "L44.4",
+     "title": "Asking people not to do things"
+    },
+    {
+     "id": "L44.5",
+     "title": "Breakthrough Lesson",
+     "breakthrough": true
+    }
+   ]
+  },
+  {
+   "level": 45,
+   "theme": "Giving an interview",
+   "lessons": [
+    {
+     "id": "L45.1",
+     "title": "What you just did"
+    },
+    {
+     "id": "L45.2",
+     "title": "How long something lasted"
+    },
+    {
+     "id": "L45.3",
+     "title": "When actions began and ended"
+    },
+    {
+     "id": "L45.4",
+     "title": "Placing events on a timeline"
+    },
+    {
+     "id": "L45.5",
+     "title": "Time since an action (seit*)"
+    },
+    {
+     "id": "L45.6",
+     "title": "Breakthrough Lesson",
+     "breakthrough": true
+    }
+   ]
+  }
+ ]
+}

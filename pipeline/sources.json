@@ -1,0 +1,14 @@
+{
+  "sources": [
+    {
+      "id": "nicosweg-a1",
+      "name": "Nicos Weg",
+      "credit": "Deutsche Welle",
+      "cefr": "A1",
+      "url": "https://www.youtube.com/playlist?list=PLs7zUO7VPyJ6eoN6SmB1UcwvPUagK87ix",
+      "note": "Official DW playlist of the A1 episodes. first/last are playlist positions of Folge 1 and the last Folge (1-2 are the title song and making-of, 79-80 a review and a tutorial); episodes are numbered from first, so e01 = Folge 1.",
+      "first": 3,
+      "last": 78
+    }
+  ]
+}
