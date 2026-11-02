@@ -123,9 +123,12 @@ def list_episodes(source: dict) -> list[dict]:
         sys.exit(f"Source {source['id']} has no url in sources.json.")
     out = run([tool("yt-dlp"), "--flat-playlist", "-J", source["url"]]).stdout
     entries = json.loads(out).get("entries") or []
+    first = source.get("first", 1)
+    last = source.get("last", len(entries))
     return [
-        {"index": i, "id": e["id"], "title": e.get("title") or "", "url": e.get("url") or e.get("webpage_url")}
+        {"index": i - first + 1, "id": e["id"], "title": e.get("title") or "", "url": e.get("url") or e.get("webpage_url")}
         for i, e in enumerate(entries, 1)
+        if first <= i <= last
     ]
 
 
