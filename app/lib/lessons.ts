@@ -128,11 +128,11 @@ export async function completeLesson(db: SQLiteDatabase, lesson: CourseLesson, w
 
 /** Splits a sentence into words and the spaces and punctuation between them. */
 export function tokenize(text: string) {
-  return text.split(/([^A-Za-zÄÖÜäöüß]+)/).filter(Boolean);
+  return text.split(/([^A-Za-zÀ-ÖØ-öø-ÿ]+)/).filter(Boolean);
 }
 
 export function isWordToken(token: string) {
-  return /^[A-Za-zÄÖÜäöüß]+$/.test(token);
+  return /^[A-Za-zÀ-ÖØ-öø-ÿ]+$/.test(token);
 }
 
 // The sentence's own head word, if it appears unchanged, becomes the gap.
