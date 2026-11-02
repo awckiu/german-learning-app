@@ -35,7 +35,7 @@ LESSONS = HERE / "output" / "lessons"
 
 WHISPER_MODEL = "large-v3-turbo"
 DIARIZATION_MODEL = "pyannote/speaker-diarization-3.1"
-MIN_SCENE, MAX_SCENE = 30.0, 150.0  # seconds
+MIN_SCENE, MAX_SCENE = 12.0, 150.0  # seconds
 DEFAULT_BUFFER = 50
 DEFAULT_MAX_EPISODES = 10
 
@@ -147,19 +147,81 @@ def download(episode: dict, folder: Path) -> Path:
     return video
 
 
-def official_subtitles(folder: Path) -> str:
-    """Text of the uploader's German subtitles, if the video has them (not auto-generated)."""
+def vtt_time(stamp: str) -> float:
+    parts = stamp.replace(",", ".").split(":")
+    return sum(float(x) * 60 ** i for i, x in enumerate(reversed(parts)))
+
+
+def subtitle_cues(folder: Path) -> list[dict]:
+    """Cues of the uploader's German subtitles (not auto-generated), if the video has them."""
     for vtt in sorted(folder.glob("source*.vtt")):
-        lines = []
+        cues, cue = [], None
         for line in vtt.read_text(encoding="utf-8").splitlines():
             line = re.sub(r"<[^>]+>", "", line).strip()
-            if not line or "-->" in line or line.startswith(("WEBVTT", "Kind:", "Language:")) or line.isdigit():
+            if "-->" in line:
+                start, end = line.split("-->")
+                cue = {"start": vtt_time(start.strip()), "end": vtt_time(end.split()[0]), "lines": []}
+                cues.append(cue)
+            elif not line:
+                cue = None
+            elif cue is not None:
+                cue["lines"].append(line)
+        cues = [
+            {"start": c["start"], "end": c["end"], "text": nfc(" ".join(c["lines"]))}
+            for c in cues if re.search(r"[A-Za-zÄÖÜäöüß]", re.sub(r"\[[^\]]*\]|\([^)]*\)", "", " ".join(c["lines"])))
+        ]
+        if cues:
+            return cues
+    return []
+
+
+def align_to_subtitles(folder: Path, segments: list[dict]) -> list[dict]:
+    """Use the official subtitle text, one segment per cue, with word times from Whisper.
+
+    Whisper mishears words; DW's subtitles don't. Words are matched in order, and words
+    Whisper missed share the time between their matched neighbours.
+    """
+    from difflib import SequenceMatcher
+
+    cues = subtitle_cues(folder)
+    if not cues:
+        return segments
+    heard = [w for seg in segments for w in seg["words"]]
+    tokens = [(ci, t) for ci, c in enumerate(cues) for t in c["text"].split() if bare(t)]
+    matcher = SequenceMatcher(None, [bare(w["w"]).lower() for w in heard], [bare(t).lower() for _, t in tokens], autojunk=False)
+    times: list[tuple[float, float] | None] = [None] * len(tokens)
+    for a, b, size in matcher.get_matching_blocks():
+        for k in range(size):
+            times[b + k] = (heard[a + k]["start"], heard[a + k]["end"])
+
+    aligned = []
+    for ci, cue in enumerate(cues):
+        idx = [i for i, (c, _) in enumerate(tokens) if c == ci]
+        words, k = [], 0
+        while k < len(idx):
+            if times[idx[k]]:
+                start, end = times[idx[k]]
+                words.append({"w": tokens[idx[k]][1], "start": round(start, 2), "end": round(end, 2)})
+                k += 1
                 continue
-            if not lines or lines[-1] != line:
-                lines.append(line)
-        if lines:
-            return "\n".join(lines)
-    return ""
+            run_end = k
+            while run_end < len(idx) and not times[idx[run_end]]:
+                run_end += 1
+            lo = words[-1]["end"] if words else cue["start"]
+            hi = times[idx[run_end]][0] if run_end < len(idx) else cue["end"]
+            hi = max(hi, lo)
+            step = (hi - lo) / (run_end - k)
+            for n in range(k, run_end):
+                a = lo + step * (n - k)
+                words.append({"w": tokens[idx[n]][1], "start": round(a, 2), "end": round(a + step, 2)})
+            k = run_end
+        aligned.append({
+            "start": round(min([cue["start"]] + [w["start"] for w in words[:1]]), 2),
+            "end": round(max([cue["end"]] + [w["end"] for w in words[-1:]]), 2),
+            "text": cue["text"],
+            "words": words,
+        })
+    return aligned
 
 
 def transcribe(folder: Path) -> list[dict]:
@@ -220,10 +282,10 @@ The app is German only (comprehensible input). Below is the transcript of one ep
 Course lessons the scenes can be matched to (id: theme: lesson):
 {lessons}
 
-{subtitles}Transcript segments ([index] start-end speaker: text). Each segment's words are listed as a JSON array:
+Transcript segments ([index] start-end speaker: text). Each segment's words are listed as a JSON array:
 {segments}
 
-Split the episode into scenes of {min_s:.0f} to {max_s:.0f} seconds (aim for 45 to 90) of consecutive segments that
+Split the episode into scenes of {min_s:.0f} to {max_s:.0f} seconds (longer is better, up to 90) of consecutive segments that
 each fit ONE course lesson clearly: the people are doing what the lesson is about (e.g. introducing themselves ->
 the introducing lesson). Only match a lesson when a teacher would agree it is a good example; a loose fit is worse
 than no scene. Skip parts that fit no lesson, such as intros, outros, credits or narration about the course.
@@ -231,10 +293,6 @@ Scenes must contain no English: place scene boundaries so that lines spoken in E
 A scene ends where its topic ends: don't run on into the first line of the next part of the story. The theme song
 and any other sung lines (for example the opening "Sag mir, wo ist dein Ding?") are never part of a scene.
 It's fine to return no scenes at all.
-
-The transcript comes from speech recognition and has mistakes. Where a word is misheard, correct it in "fixes".
-When official subtitles are given above, treat them as the correct text and fix every word that differs.
-Without subtitles, fix only what you are confident about from the context.
 
 Reply with JSON only, no prose, in this shape:
 {{
@@ -244,7 +302,6 @@ Reply with JSON only, no prose, in this shape:
   {{
    "first": 3, "last": 11, "lesson": "L1.4",
    "focus": ["heißen", "kommen"],
-   "fixes": {{"5": ["Du", "willst", "zu", "deiner", "Tante"]}},
    "lemmas": {{"3": ["hallo", "ich", "heißen", null]}},
    "glosses": {{"3": ["hello", "I", "am called", "Nico"]}},
    "cards": [
@@ -261,8 +318,6 @@ Rules:
 - "names" lists every person's name that appears in the transcript.
 - "first"/"last" are segment indexes from the transcript above (inclusive).
 - "focus": 3 to 8 dictionary forms (infinitive, singular noun without article) that the scene teaches and that a beginner can learn from it.
-- "fixes": only for segments with a misheard word: the segment's corrected word array, same count as the original,
-  one corrected word per original word, without punctuation. Lemmas and glosses describe the corrected words.
 - "lemmas": for EVERY segment index in the scene, the dictionary form of each word in that segment's word array, same
   order and same count (infinitive for verbs, nominative singular for nouns, capitalised as in a dictionary), null for names.
 - "glosses": for EVERY segment index in the scene, one short English gloss per word in that segment's word array, same order and same count, meaning of the word in that sentence.
@@ -280,13 +335,11 @@ def plan_scenes(folder: Path, episode: dict, source: dict, segments: list[dict],
         f"    {json.dumps([w['w'] for w in s['words']], ensure_ascii=False)}"
         for i, s in enumerate(segments)
     ]
-    subs = official_subtitles(folder)
     prompt = PROMPT.format(
         title=episode["title"] or source["name"],
         cefr=source["cefr"],
         lessons="\n".join(f"{k}: {v}" for k, v in course.items()),
         segments="\n".join(lines),
-        subtitles=f"Official German subtitles of the episode (correct text, no timings):\n{subs}\n\n" if subs else "",
         min_s=MIN_SCENE,
         max_s=MAX_SCENE,
     )
@@ -335,13 +388,6 @@ def build_package(pkg_id: str, order: int, scene: dict, plan: dict, episode: dic
         if label and label not in labels:
             labels[label] = f"S{len(labels) + 1}"
             speakers.append({"id": labels[label], "name": plan.get("speakers", {}).get(label) or f"Sprecher {len(labels)}"})
-        fixes = scene.get("fixes", {}).get(str(i)) or []
-        if len(fixes) != len(seg["words"]):
-            fixes = []
-        text = seg["text"]
-        for w, fixed in zip(seg["words"], fixes):
-            if fixed and bare(w["w"]) and fixed != bare(w["w"]):
-                text = text.replace(bare(w["w"]), fixed, 1)
         glosses = scene.get("glosses", {}).get(str(i)) or []
         if len(glosses) != len(seg["words"]):
             glosses = []
@@ -350,7 +396,7 @@ def build_package(pkg_id: str, order: int, scene: dict, plan: dict, episode: dic
             lemmas = []
         words = []
         for j, w in enumerate(seg["words"]):
-            token = fixes[j] if fixes and fixes[j] else bare(w["w"])
+            token = bare(w["w"])
             is_name = token.lower() in names
             lemma = None if is_name else (lemmas[j] if lemmas and lemmas[j] else lemmatize(token))
             if not token:
@@ -371,7 +417,7 @@ def build_package(pkg_id: str, order: int, scene: dict, plan: dict, episode: dic
             "start": round(seg["start"] - offset, 2),
             "end": round(seg["end"] - offset, 2),
             "speaker": labels.get(label),
-            "text": text,
+            "text": seg["text"],
             "words": words,
         })
 
@@ -460,7 +506,7 @@ def main() -> None:
             print(f"{source['name']} {episode['index']}: {episode['title']}")
             folder.mkdir(parents=True, exist_ok=True)
             video = download(episode, folder)
-            segments = transcribe(folder)
+            segments = align_to_subtitles(folder, transcribe(folder))
             diarize(folder, segments)
             plan = plan_scenes(folder, episode, source, segments, course)
             made = []
