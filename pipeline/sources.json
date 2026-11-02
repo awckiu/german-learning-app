@@ -1,0 +1,12 @@
+{
+  "sources": [
+    {
+      "id": "nicosweg-a1",
+      "name": "Nicos Weg",
+      "credit": "Deutsche Welle",
+      "cefr": "A1",
+      "url": "",
+      "note": "Official DW playlist of the A1 episodes, in episode order. Any URL yt-dlp accepts works."
+    }
+  ]
+}

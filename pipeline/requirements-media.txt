@@ -1,0 +1,5 @@
+# Step 3 lesson pipeline (py -m pip install -r requirements-media.txt)
+faster-whisper>=1.1
+simplemma>=1.1
+# Speaker labels, only used when HF_TOKEN is set in .env
+pyannote.audio>=3.3
