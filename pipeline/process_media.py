@@ -138,12 +138,28 @@ def download(episode: dict, folder: Path) -> Path:
         print("  downloading")
         run([
             tool("yt-dlp"), "-f", "bv*[height<=720]+ba/b[height<=720]/b",
-            "--merge-output-format", "mp4", "-o", str(folder / "source.%(ext)s"), episode["url"],
+            "--merge-output-format", "mp4", "--write-subs", "--sub-langs", "de.*", "--sub-format", "vtt",
+            "-o", str(folder / "source.%(ext)s"), episode["url"],
         ])
     audio = folder / "audio.wav"
     if not audio.exists():
         run([tool("ffmpeg"), "-y", "-i", str(video), "-ac", "1", "-ar", "16000", str(audio)])
     return video
+
+
+def official_subtitles(folder: Path) -> str:
+    """Text of the uploader's German subtitles, if the video has them (not auto-generated)."""
+    for vtt in sorted(folder.glob("source*.vtt")):
+        lines = []
+        for line in vtt.read_text(encoding="utf-8").splitlines():
+            line = re.sub(r"<[^>]+>", "", line).strip()
+            if not line or "-->" in line or line.startswith(("WEBVTT", "Kind:", "Language:")) or line.isdigit():
+                continue
+            if not lines or lines[-1] != line:
+                lines.append(line)
+        if lines:
+            return "\n".join(lines)
+    return ""
 
 
 def transcribe(folder: Path) -> list[dict]:
@@ -204,18 +220,21 @@ The app is German only (comprehensible input). Below is the transcript of one ep
 Course lessons the scenes can be matched to (id: theme: lesson):
 {lessons}
 
-Transcript segments ([index] start-end speaker: text). Each segment's words are listed as a JSON array:
+{subtitles}Transcript segments ([index] start-end speaker: text). Each segment's words are listed as a JSON array:
 {segments}
 
-Split the episode into scenes of {min_s:.0f} to {max_s:.0f} seconds (aim for 60 to 120) of consecutive segments that
+Split the episode into scenes of {min_s:.0f} to {max_s:.0f} seconds (aim for 45 to 90) of consecutive segments that
 each fit ONE course lesson clearly: the people are doing what the lesson is about (e.g. introducing themselves ->
 the introducing lesson). Only match a lesson when a teacher would agree it is a good example; a loose fit is worse
 than no scene. Skip parts that fit no lesson, such as intros, outros, credits or narration about the course.
 Scenes must contain no English: place scene boundaries so that lines spoken in English fall outside every scene.
+A scene ends where its topic ends: don't run on into the first line of the next part of the story. The theme song
+and any other sung lines (for example the opening "Sag mir, wo ist dein Ding?") are never part of a scene.
 It's fine to return no scenes at all.
 
-The transcript comes from speech recognition and has mistakes. Where a word is clearly misheard, correct it in
-"fixes" (only when you are confident from the context; leave names and streets you can't verify as they are).
+The transcript comes from speech recognition and has mistakes. Where a word is misheard, correct it in "fixes".
+When official subtitles are given above, treat them as the correct text and fix every word that differs.
+Without subtitles, fix only what you are confident about from the context.
 
 Reply with JSON only, no prose, in this shape:
 {{
@@ -261,11 +280,13 @@ def plan_scenes(folder: Path, episode: dict, source: dict, segments: list[dict],
         f"    {json.dumps([w['w'] for w in s['words']], ensure_ascii=False)}"
         for i, s in enumerate(segments)
     ]
+    subs = official_subtitles(folder)
     prompt = PROMPT.format(
         title=episode["title"] or source["name"],
         cefr=source["cefr"],
         lessons="\n".join(f"{k}: {v}" for k, v in course.items()),
         segments="\n".join(lines),
+        subtitles=f"Official German subtitles of the episode (correct text, no timings):\n{subs}\n\n" if subs else "",
         min_s=MIN_SCENE,
         max_s=MAX_SCENE,
     )
