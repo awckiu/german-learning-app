@@ -68,6 +68,13 @@ const migrations = [
     queued_at INTEGER NOT NULL
   );
   `,
+  `
+  -- Recorded word forms that aren't bank words ("bin", "danke"), from forms.json.
+  CREATE TABLE word_forms (
+    form TEXT PRIMARY KEY NOT NULL,
+    audio TEXT NOT NULL
+  );
+  `,
 ];
 
 export async function migrate(db: SQLiteDatabase) {

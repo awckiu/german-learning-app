@@ -13,7 +13,7 @@ type ManifestEntry = {
   sentence_audio: { sarah?: string; lennard?: string };
 };
 
-const AUDIO_FOLDERS = ['words', 'sentences/sarah', 'sentences/lennard'];
+const AUDIO_FOLDERS = ['words', 'sentences/sarah', 'sentences/lennard', 'forms'];
 
 export type ImportResult =
   | { status: 'no-folder' }
@@ -44,9 +44,13 @@ export async function importAudioBank(db: SQLiteDatabase): Promise<ImportResult>
   if (!bank || !manifestUri) return { status: 'missing-bank' };
 
   const text = await new File(manifestUri).text();
-  const stamp = hash(text);
+  // forms.json (optional) maps word forms such as "bin" to clips in forms/.
+  const formsUri = listFiles(bank).get('forms.json');
+  const formsText = formsUri ? await new File(formsUri).text() : '{}';
+  const stamp = `${hash(text)}+${hash(formsText)}`;
   if (stamp === (await getSetting(db, 'audio_bank_stamp'))) return { status: 'unchanged' };
   const manifest: Record<string, ManifestEntry> = JSON.parse(text);
+  const forms: Record<string, string> = JSON.parse(formsText);
 
   // Folder URIs from Android's picker can't be joined with a relative path,
   // so list each audio folder once and look files up by their relative path.
@@ -87,6 +91,11 @@ export async function importAudioBank(db: SQLiteDatabase): Promise<ImportResult>
       }
     } finally {
       await upsert.finalizeAsync();
+    }
+    await txn.runAsync('DELETE FROM word_forms');
+    for (const [form, path] of Object.entries(forms)) {
+      const audio = uris.get(path);
+      if (audio) await txn.runAsync('INSERT OR REPLACE INTO word_forms (form, audio) VALUES (?, ?)', form.toLowerCase(), audio);
     }
   });
   await setSetting(db, 'audio_bank_stamp', stamp);

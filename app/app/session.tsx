@@ -13,7 +13,7 @@ import { colors, genderColors } from '@/constants/theme';
 import { useAudioBank } from '@/lib/AudioBankProvider';
 import { loadWordLookup } from '@/lib/lessons';
 import { countDueToday, nextIntervals, nextReviewItem, rate, type ReviewItem, sentenceAudio } from '@/lib/review';
-import { glossForRank, sayWord, type WordLookup } from '@/lib/words';
+import { emptyLookup, glossForRank, sayWord, type WordLookup } from '@/lib/words';
 
 const grades: { grade: Grade; label: string; color: string }[] = [
   { grade: Rating.Again, label: 'Again', color: colors.coral },
@@ -29,7 +29,7 @@ export default function SessionScreen() {
   const [item, setItem] = useState<ReviewItem | null | undefined>(undefined);
   const [revealed, setRevealed] = useState(false);
   const [left, setLeft] = useState(0);
-  const [lookup, setLookup] = useState<WordLookup>(new Map());
+  const [lookup, setLookup] = useState<WordLookup>(emptyLookup);
   const [showGloss, setShowGloss] = useState(false);
 
   useEffect(() => {

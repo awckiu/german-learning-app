@@ -22,7 +22,7 @@ import {
 } from '@/lib/lessons';
 import type { Word } from '@/lib/review';
 import { useAudioQueue } from '@/lib/useAudioQueue';
-import { sayWord } from '@/lib/words';
+import { emptyLookup, sayWord, type WordLookup } from '@/lib/words';
 
 type Phase = 'listen' | 'quiz' | 'done';
 
@@ -40,7 +40,7 @@ export default function LessonScreen() {
   const audio = useAudioQueue();
 
   const [words, setWords] = useState<Word[] | null>(null);
-  const [lookup, setLookup] = useState<Map<string, Word>>(new Map());
+  const [lookup, setLookup] = useState<WordLookup>(emptyLookup);
   const [quiz, setQuiz] = useState<QuizCard[]>([]);
   const [showText, setShowText] = useState(false);
   const [phase, setPhase] = useState<Phase>('listen');
