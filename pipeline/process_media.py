@@ -167,7 +167,7 @@ def subtitle_cues(folder: Path) -> list[dict]:
             elif cue is not None:
                 cue["lines"].append(line)
         cues = [
-            {"start": c["start"], "end": c["end"], "text": nfc(" ".join(c["lines"]))}
+            {"start": c["start"], "end": c["end"], "text": re.sub(r"^(?:[–—-]|\.\.\.|…)\s*", "", nfc(" ".join(c["lines"])))}
             for c in cues if re.search(r"[A-Za-zÄÖÜäöüß]", re.sub(r"\[[^\]]*\]|\([^)]*\)", "", " ".join(c["lines"])))
         ]
         if cues:
@@ -215,6 +215,9 @@ def align_to_subtitles(folder: Path, segments: list[dict]) -> list[dict]:
                 a = lo + step * (n - k)
                 words.append({"w": tokens[idx[n]][1], "start": round(a, 2), "end": round(a + step, 2)})
             k = run_end
+        for prev, word in zip(words, words[1:]):  # keep highlighting in order
+            word["start"] = max(word["start"], prev["end"])
+            word["end"] = max(word["end"], round(word["start"] + 0.05, 2))
         aligned.append({
             "start": round(min([cue["start"]] + [w["start"] for w in words[:1]]), 2),
             "end": round(max([cue["end"]] + [w["end"] for w in words[-1:]]), 2),
@@ -233,7 +236,8 @@ def transcribe(folder: Path) -> list[dict]:
 
     model = WhisperModel(WHISPER_MODEL, device="cpu", compute_type="int8")
     segments, _ = model.transcribe(
-        str(folder / "audio.wav"), language="de", word_timestamps=True, vad_filter=True, beam_size=5
+        str(folder / "audio.wav"), language="de", word_timestamps=True, beam_size=5,
+        vad_filter=True, vad_parameters={"threshold": 0.3, "min_silence_duration_ms": 500},
     )
     result = [
         {
@@ -321,6 +325,8 @@ Rules:
 - "lemmas": for EVERY segment index in the scene, the dictionary form of each word in that segment's word array, same
   order and same count (infinitive for verbs, nominative singular for nouns, capitalised as in a dictionary), null for names.
 - "glosses": for EVERY segment index in the scene, one short English gloss per word in that segment's word array, same order and same count, meaning of the word in that sentence.
+- Every quiz card must have exactly one answer that the scene itself clearly shows; avoid questions about people the
+  scene doesn't make unambiguous.
 - "cards": 3 to 5 cards, written in simple German. The only English allowed is "hint": one optional short English line on an explain card. "segment"/"segments" in cards count from 0 = the scene's first segment. "answer" is an index into "options".
 """
 
