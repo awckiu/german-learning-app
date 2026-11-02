@@ -35,7 +35,7 @@ LESSONS = HERE / "output" / "lessons"
 
 WHISPER_MODEL = "large-v3-turbo"
 DIARIZATION_MODEL = "pyannote/speaker-diarization-3.1"
-MIN_SCENE, MAX_SCENE = 20.0, 150.0  # seconds
+MIN_SCENE, MAX_SCENE = 30.0, 150.0  # seconds
 DEFAULT_BUFFER = 50
 DEFAULT_MAX_EPISODES = 10
 
@@ -207,10 +207,15 @@ Course lessons the scenes can be matched to (id: theme: lesson):
 Transcript segments ([index] start-end speaker: text). Each segment's words are listed as a JSON array:
 {segments}
 
-Split the episode into scenes of {min_s:.0f} to {max_s:.0f} seconds of consecutive segments that each fit ONE course
-lesson well (what the people actually do or say, e.g. introducing themselves -> the introducing lesson). Skip
-parts that fit no lesson, such as intros, outros, credits or narration about the course. It's fine to return
-no scenes at all.
+Split the episode into scenes of {min_s:.0f} to {max_s:.0f} seconds (aim for 60 to 120) of consecutive segments that
+each fit ONE course lesson clearly: the people are doing what the lesson is about (e.g. introducing themselves ->
+the introducing lesson). Only match a lesson when a teacher would agree it is a good example; a loose fit is worse
+than no scene. Skip parts that fit no lesson, such as intros, outros, credits or narration about the course.
+Scenes must contain no English: place scene boundaries so that lines spoken in English fall outside every scene.
+It's fine to return no scenes at all.
+
+The transcript comes from speech recognition and has mistakes. Where a word is clearly misheard, correct it in
+"fixes" (only when you are confident from the context; leave names and streets you can't verify as they are).
 
 Reply with JSON only, no prose, in this shape:
 {{
@@ -220,6 +225,7 @@ Reply with JSON only, no prose, in this shape:
   {{
    "first": 3, "last": 11, "lesson": "L1.4",
    "focus": ["heißen", "kommen"],
+   "fixes": {{"5": ["Du", "willst", "zu", "deiner", "Tante"]}},
    "lemmas": {{"3": ["hallo", "ich", "heißen", null]}},
    "glosses": {{"3": ["hello", "I", "am called", "Nico"]}},
    "cards": [
@@ -236,6 +242,8 @@ Rules:
 - "names" lists every person's name that appears in the transcript.
 - "first"/"last" are segment indexes from the transcript above (inclusive).
 - "focus": 3 to 8 dictionary forms (infinitive, singular noun without article) that the scene teaches and that a beginner can learn from it.
+- "fixes": only for segments with a misheard word: the segment's corrected word array, same count as the original,
+  one corrected word per original word, without punctuation. Lemmas and glosses describe the corrected words.
 - "lemmas": for EVERY segment index in the scene, the dictionary form of each word in that segment's word array, same
   order and same count (infinitive for verbs, nominative singular for nouns, capitalised as in a dictionary), null for names.
 - "glosses": for EVERY segment index in the scene, one short English gloss per word in that segment's word array, same order and same count, meaning of the word in that sentence.
@@ -306,6 +314,13 @@ def build_package(pkg_id: str, order: int, scene: dict, plan: dict, episode: dic
         if label and label not in labels:
             labels[label] = f"S{len(labels) + 1}"
             speakers.append({"id": labels[label], "name": plan.get("speakers", {}).get(label) or f"Sprecher {len(labels)}"})
+        fixes = scene.get("fixes", {}).get(str(i)) or []
+        if len(fixes) != len(seg["words"]):
+            fixes = []
+        text = seg["text"]
+        for w, fixed in zip(seg["words"], fixes):
+            if fixed and bare(w["w"]) and fixed != bare(w["w"]):
+                text = text.replace(bare(w["w"]), fixed, 1)
         glosses = scene.get("glosses", {}).get(str(i)) or []
         if len(glosses) != len(seg["words"]):
             glosses = []
@@ -314,7 +329,7 @@ def build_package(pkg_id: str, order: int, scene: dict, plan: dict, episode: dic
             lemmas = []
         words = []
         for j, w in enumerate(seg["words"]):
-            token = bare(w["w"])
+            token = fixes[j] if fixes and fixes[j] else bare(w["w"])
             is_name = token.lower() in names
             lemma = None if is_name else (lemmas[j] if lemmas and lemmas[j] else lemmatize(token))
             if not token:
@@ -335,7 +350,7 @@ def build_package(pkg_id: str, order: int, scene: dict, plan: dict, episode: dic
             "start": round(seg["start"] - offset, 2),
             "end": round(seg["end"] - offset, 2),
             "speaker": labels.get(label),
-            "text": seg["text"],
+            "text": text,
             "words": words,
         })
 
