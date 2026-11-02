@@ -2,7 +2,7 @@
   "expo": {
     "name": "Deutsch",
     "slug": "german-learning-app",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "deutsch",
@@ -16,7 +16,7 @@
       },
       "predictiveBackGestureEnabled": false,
       "package": "com.awckiu.deutsch",
-      "versionCode": 3
+      "versionCode": 4
     },
     "plugins": [
       "expo-router",
