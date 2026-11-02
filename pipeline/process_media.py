@@ -43,7 +43,11 @@ DEFAULT_MAX_EPISODES = 10
 # ---------- helpers ----------
 
 def run(cmd: list[str], **kw) -> subprocess.CompletedProcess:
-    return subprocess.run(cmd, check=True, capture_output=True, text=True, encoding="utf-8", **kw)
+    try:
+        return subprocess.run(cmd, check=True, capture_output=True, text=True, encoding="utf-8", **kw)
+    except subprocess.CalledProcessError as e:
+        print(f"  {Path(cmd[0]).name} failed (exit {e.returncode}):\n{(e.stderr or e.stdout or '').strip()[-2000:]}")
+        raise
 
 
 def tool(name: str) -> str:
@@ -137,7 +141,8 @@ def download(episode: dict, folder: Path) -> Path:
     if not video.exists():
         print("  downloading")
         run([
-            tool("yt-dlp"), "-f", "bv*[height<=720]+ba/b[height<=720]/b",
+            tool("yt-dlp"), "--retries", "5", "--fragment-retries", "5", "--retry-sleep", "exp=2:60",
+            "-f", "bv*[height<=720]+ba/b[height<=720]/b",
             "--merge-output-format", "mp4", "--write-subs", "--sub-langs", "de.*", "--sub-format", "vtt",
             "-o", str(folder / "source.%(ext)s"), episode["url"],
         ])
@@ -511,10 +516,14 @@ def main() -> None:
                 return
             print(f"{source['name']} {episode['index']}: {episode['title']}")
             folder.mkdir(parents=True, exist_ok=True)
-            video = download(episode, folder)
-            segments = align_to_subtitles(folder, transcribe(folder))
-            diarize(folder, segments)
-            plan = plan_scenes(folder, episode, source, segments, course)
+            try:
+                video = download(episode, folder)
+                segments = align_to_subtitles(folder, transcribe(folder))
+                diarize(folder, segments)
+                plan = plan_scenes(folder, episode, source, segments, course)
+            except (subprocess.CalledProcessError, subprocess.TimeoutExpired, ValueError) as e:
+                print(f"  skipped for now, will retry next run: {type(e).__name__}")
+                continue
             made = []
             for n, scene in enumerate(valid_scenes(plan, segments, course), 1):
                 pkg_id = f"{source['id']}-e{episode['index']:02d}-c{n}"
